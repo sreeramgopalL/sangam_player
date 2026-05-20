@@ -6,3 +6,5 @@ frontend/dist/
 .DS_Store
 # Music files are too large for GitHub - host on Backblaze B2
 backend/public/music/
+temp_music_upload/
+temp_songs/
