@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Smartphone, Mail, Heart } from 'lucide-react';
 
 const Footer = () => {
-  const [deferredPrompt, setDeferredPrompt] = useState(null);
-  const [isInstalled, setIsInstalled] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [modalContent, setModalContent] = useState({ title: '', message: [], type: '' });
 
   useEffect(() => {
     // Check if app is already in standalone mode (installed)
@@ -36,10 +36,28 @@ const Footer = () => {
       // Check if iOS device
       const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
       if (isIOS) {
-        alert("To install on iPhone/iPad: Tap the 'Share' button at the bottom of Safari, scroll down, and tap 'Add to Home Screen' 📱");
+        setModalContent({
+          title: "Install on iPhone / iPad",
+          message: [
+            "Open this site in Safari browser.",
+            "Tap the 'Share' icon (📤) in the browser toolbar.",
+            "Scroll down the share sheet menu.",
+            "Tap 'Add to Home Screen' (➕) and click 'Add'!"
+          ],
+          type: "ios"
+        });
       } else {
-        alert("Installation helper: Tap the 3-dots menu on your browser (Chrome/Firefox/Edge) and select 'Install app' or 'Add to Home screen'! 📱");
+        setModalContent({
+          title: "Installation Helper",
+          message: [
+            "Tap the three-dots menu (⋮ or ⋯) in your browser's top-right corner.",
+            "Select 'Install app' or 'Add to Home screen' from the menu.",
+            "Confirm the prompt to pin Sangam Player to your desktop or device launcher!"
+          ],
+          type: "generic"
+        });
       }
+      setShowModal(true);
       return;
     }
     
@@ -134,6 +152,66 @@ const Footer = () => {
         </div>
 
       </div>
+
+      {/* Premium Glassmorphic PWA Install Modal */}
+      {showModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          {/* Backdrop */}
+          <div 
+            className="absolute inset-0 bg-[#0A0002]/85 backdrop-blur-sm cursor-pointer"
+            onClick={() => setShowModal(false)}
+          />
+          
+          {/* Modal Container */}
+          <div 
+            className="relative w-full max-w-md rounded-2xl border border-gold/30 p-6 shadow-[0_0_50px_rgba(212,175,55,0.25)] backdrop-blur-xl overflow-hidden animate-[scaleUp_0.3s_ease-out]"
+            style={{
+              background: 'linear-gradient(135deg, #2D0810 0%, #1A0005 100%)',
+            }}
+          >
+            {/* Ambient gold blur */}
+            <div className="absolute top-[-20%] right-[-20%] w-[50%] h-[50%] rounded-full bg-gold/10 blur-[50px] pointer-events-none" />
+            
+            {/* Header */}
+            <div className="flex items-center justify-between border-b border-gold/15 pb-4 mb-4 relative z-10">
+              <h4 className="font-bold text-lg text-gold flex items-center gap-2">
+                <Smartphone size={20} className="text-gold animate-pulse" />
+                {modalContent.title}
+              </h4>
+              <button 
+                onClick={() => setShowModal(false)}
+                className="w-8 h-8 rounded-full flex items-center justify-center bg-white/5 hover:bg-gold/20 text-white/50 hover:text-gold transition-colors border border-white/5 cursor-pointer active:scale-90"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Instruction Steps */}
+            <div className="space-y-4 relative z-10">
+              {modalContent.message.map((step, idx) => (
+                <div key={idx} className="flex gap-4 items-start">
+                  <div className="w-6 h-6 flex-shrink-0 flex items-center justify-center rounded-full bg-gradient-to-br from-gold to-[#B8860B] text-burgundy-deep font-bold text-xs shadow-md">
+                    {idx + 1}
+                  </div>
+                  <p className="text-beige-light/90 text-sm leading-relaxed pt-0.5">
+                    {step}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Footer Close Button */}
+            <div className="mt-6 flex justify-end relative z-10 border-t border-gold/10 pt-4">
+              <button
+                onClick={() => setShowModal(false)}
+                className="px-5 py-2 rounded-xl bg-white/5 hover:bg-gold/20 hover:text-gold text-beige-light/80 border border-white/10 hover:border-gold/30 text-xs font-semibold tracking-wide uppercase transition-all cursor-pointer active:scale-95"
+              >
+                Got It
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </footer>
   );
 };
