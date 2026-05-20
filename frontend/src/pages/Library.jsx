@@ -1,22 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import LanguageFilter from '../components/LanguageFilter';
+// frontend/src/pages/Library.jsx
+import React, { useEffect } from 'react';
 import PlaylistPanel from '../components/PlaylistPanel';
 import { useSpotify } from '../hooks/useSpotify';
-import { Loader2, Cloud, Music } from 'lucide-react';
+import { Loader2, Cloud, HardDrive } from 'lucide-react';
 
+// Library page – displays local files or Google Drive files dynamically
 const Library = ({ setCurrentSong }) => {
-  const [viewSource, setViewSource] = useState('drive'); // Default to drive
-  const [selectedLang, setSelectedLang] = useState('all');
-  const { songs, loading, error, fetchSongsByLanguage, fetchDriveSongs } = useSpotify();
+  const { songs, loading, error, fetchLibrarySongs } = useSpotify();
 
+  // Load library songs on component mount only
   useEffect(() => {
-    if (viewSource === 'drive') {
-      fetchDriveSongs();
-    } else {
-      fetchSongsByLanguage(selectedLang);
-    }
+    fetchLibrarySongs();
     // eslint-disable-next-line
-  }, [selectedLang, viewSource]);
+  }, []);
+
+  const isCloud = songs.length > 0 && songs[0].id && songs[0].id.startsWith('drive_');
 
   return (
     <div className="container mx-auto px-4 py-8 relative z-10">
@@ -24,36 +22,17 @@ const Library = ({ setCurrentSong }) => {
         <h1 className="text-4xl font-bold mb-4 glitter-text">Music Library</h1>
         <p className="text-beige-dark">Explore hits across all sources</p>
 
-        {/* Source Toggle */}
+        {/* Dynamic Source label */}
         <div className="flex justify-center gap-4 mt-6">
           <button
-            onClick={() => setViewSource('drive')}
-            className={`flex items-center gap-2 px-5 py-2.5 rounded-full border transition-all duration-300 font-medium ${
-              viewSource === 'drive'
-                ? 'bg-gold border-gold text-burgundy-deep shadow-lg shadow-gold/20'
-                : 'bg-burgundy-deep/30 border-gold/30 text-beige hover:border-gold/60'
-            }`}
+            className="flex items-center gap-2 px-5 py-2.5 rounded-full border bg-gold border-gold text-burgundy-deep shadow-lg shadow-gold/20 font-medium"
+            disabled
           >
-            <Cloud size={18} />
-            Google Drive (Full Songs)
-          </button>
-          <button
-            onClick={() => setViewSource('local')}
-            className={`flex items-center gap-2 px-5 py-2.5 rounded-full border transition-all duration-300 font-medium ${
-              viewSource === 'local'
-                ? 'bg-gold border-gold text-burgundy-deep shadow-lg shadow-gold/20'
-                : 'bg-burgundy-deep/30 border-gold/30 text-beige hover:border-gold/60'
-            }`}
-          >
-            <Music size={18} />
-            Spotify Previews
+            {isCloud ? <Cloud size={18} /> : <HardDrive size={18} />}
+            {isCloud ? 'Google Drive (Full Songs)' : 'Local Music Folder'}
           </button>
         </div>
       </div>
-
-      {viewSource === 'local' && (
-        <LanguageFilter selected={selectedLang} onSelect={setSelectedLang} />
-      )}
 
       {loading ? (
         <div className="flex justify-center items-center py-24">
@@ -64,14 +43,10 @@ const Library = ({ setCurrentSong }) => {
           <p>Error loading songs: {error}</p>
         </div>
       ) : (
-        <PlaylistPanel 
-          songs={songs} 
-          onPlaySong={setCurrentSong} 
-          title={
-            viewSource === 'drive'
-              ? 'Google Drive Playlist'
-              : `${selectedLang === 'all' ? 'All' : selectedLang.charAt(0).toUpperCase() + selectedLang.slice(1)} Hits`
-          } 
+        <PlaylistPanel
+          songs={songs}
+          onPlaySong={setCurrentSong}
+          title={isCloud ? "Google Drive Playlist" : "Local Music Playlist"}
         />
       )}
     </div>
@@ -79,3 +54,4 @@ const Library = ({ setCurrentSong }) => {
 };
 
 export default Library;
+

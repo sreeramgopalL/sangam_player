@@ -11,20 +11,14 @@ const getSongs = () => {
   return [];
 };
 
-const B2_BUCKET_URL = process.env.B2_BUCKET_URL;
-
-const mapSongs = (songs, req) => {
+// Ensure all audio URLs are relative (no localhost or cloud links)
+const mapSongs = (songs) => {
   return songs.map(song => {
     let url = song.audio_url || '';
-    if (B2_BUCKET_URL && url.includes('/music/')) {
-      const fileName = url.split('/music/')[1];
-      if (fileName) {
-        url = `${B2_BUCKET_URL.replace(/\/$/, '')}/${fileName}`;
-      }
-    } else if (url.startsWith('http://localhost:5000/music/')) {
-      const fileName = url.split('/music/')[1];
-      const isLocal = req && req.headers.host && req.headers.host.includes('localhost');
-      url = isLocal ? `http://localhost:5000/music/${fileName}` : `/music/${fileName}`;
+    // Strip any http://localhost:5000 prefix to make it relative
+    if (url.startsWith('http://localhost')) {
+      const urlObj = new URL(url);
+      url = urlObj.pathname;
     }
     return {
       ...song,
@@ -43,7 +37,7 @@ router.get('/', (req, res) => {
         JSON.stringify(s).toLowerCase().includes(language.toLowerCase()));
     }
     
-    res.json(mapSongs(songs, req));
+    res.json(mapSongs(songs));
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

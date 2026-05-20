@@ -3,7 +3,6 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
 const fs = require('fs');
-const { google } = require('googleapis');
 
 // Load .env from backend directory explicitly
 dotenv.config({ path: path.join(__dirname, '.env') });
@@ -57,9 +56,11 @@ async function fetchDriveSongs() {
   const API_KEY = process.env.GOOGLE_DRIVE_API_KEY;
   const FOLDER_ID = process.env.GOOGLE_DRIVE_FOLDER_ID;
 
-  console.log('[Drive] API_KEY present:', !!API_KEY);
-  console.log('[Drive] FOLDER_ID:', FOLDER_ID);
+  if (!API_KEY || !FOLDER_ID) {
+    throw new Error('Google Drive configuration is missing (GOOGLE_DRIVE_API_KEY or GOOGLE_DRIVE_FOLDER_ID)');
+  }
 
+  const { google } = require('googleapis');
   const drive = google.drive({ version: 'v3' });
 
   const res = await drive.files.list({
@@ -84,13 +85,31 @@ async function fetchDriveSongs() {
   }));
 }
 
-// Drive songs route
-app.get('/api/drive-songs', async (req, res) => {
+// Unified Library songs route supporting both Local and Google Drive
+app.get('/api/library-songs', async (req, res) => {
   try {
-    const songs = await fetchDriveSongs();
-    res.json(songs);
+    const source = (process.env.MUSIC_SOURCE || 'local').toLowerCase();
+    if (source === 'cloud' || source === 'drive' || source === 'google') {
+      const songs = await fetchDriveSongs();
+      res.json(songs);
+    } else {
+      if (!fs.existsSync(MUSIC_DIR)) {
+        return res.json([]);
+      }
+      const files = fs.readdirSync(MUSIC_DIR).filter(f => f.toLowerCase().endsWith('.mp3')).sort();
+      const songs = files.map((file, index) => ({
+        id: `local_${index + 1}`,
+        name: file.replace(/\.mp3$/i, '').replace(/[-_]/g, ' '),
+        artists: ['Local'],
+        album: { images: [{ url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80' }] },
+        audio_url: `/music/${encodeURIComponent(file)}`,
+        language: 'tamil',
+        vibe: 'energetic'
+      }));
+      res.json(songs);
+    }
   } catch (err) {
-    console.error('Drive fetch error:', err);
+    console.error('Library fetch error:', err);
     res.status(500).json({ error: err.message });
   }
 });
@@ -105,6 +124,7 @@ app.get('/api/stream-audio/:id', async (req, res) => {
       return res.status(500).send('Google Drive API Key is missing');
     }
 
+    const { google } = require('googleapis');
     const drive = google.drive({ version: 'v3' });
 
     // Forward range headers from client browser to Google Drive
@@ -148,6 +168,7 @@ app.get('/api/stream-audio/:id', async (req, res) => {
     res.status(500).send('Error streaming audio from Google Drive');
   }
 });
+
 
 // Serve static files from frontend build
 app.use(express.static(path.join(__dirname, '../frontend/dist')));

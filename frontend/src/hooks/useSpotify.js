@@ -38,13 +38,13 @@ export const useSpotify = () => {
     }
   };
 
-  const fetchDriveSongs = async () => {
+  const fetchLibrarySongs = async () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('/api/drive-songs');
+      const response = await fetch('/api/library-songs');
       if (!response.ok) {
-        throw new Error('Failed to fetch songs from Google Drive');
+        throw new Error('Failed to fetch library songs');
       }
       const data = await response.json();
       setSongs(data);
@@ -55,5 +55,6 @@ export const useSpotify = () => {
     }
   };
 
-  return { songs, loading, error, fetchSongsByLanguage, generatePlaylist, fetchDriveSongs };
+  return { songs, loading, error, fetchSongsByLanguage, generatePlaylist, fetchLibrarySongs };
+
 };

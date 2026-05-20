@@ -1,7 +1,11 @@
 const fs = require('fs');
 const path = require('path');
+const dotenv = require('dotenv');
 
-const musicDir = path.join(__dirname, 'public', 'music');
+// Load env
+dotenv.config({ path: path.join(__dirname, '.env') });
+
+const musicDir = process.env.MUSIC_DIR || path.join(__dirname, 'public', 'music');
 const dataDir = path.join(__dirname, 'data');
 const outputFile = path.join(dataDir, 'songs.json');
 
@@ -9,7 +13,8 @@ if (!fs.existsSync(dataDir)) {
   fs.mkdirSync(dataDir);
 }
 
-const files = fs.readdirSync(musicDir).filter(f => f.endsWith('.mp3'));
+const files = fs.readdirSync(musicDir).filter(f => f.toLowerCase().endsWith('.mp3'));
+
 
 const songs = files.map((file, index) => {
   const name = file.replace('.mp3', '');
