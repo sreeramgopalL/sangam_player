@@ -4,6 +4,8 @@ import { Smartphone, Mail, Heart } from 'lucide-react';
 const Footer = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState({ title: '', message: [], type: '' });
+  const [isInstalled, setIsInstalled] = useState(false);
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
 
   useEffect(() => {
     // Check if app is already in standalone mode (installed)

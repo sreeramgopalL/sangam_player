@@ -51,14 +51,10 @@ export default defineConfig({
         theme_color: '#3C0008',
         icons: [
           {
-            src: 'https://via.placeholder.com/192',
-            sizes: '192x192',
-            type: 'image/png'
-          },
-          {
-            src: 'https://via.placeholder.com/512',
-            sizes: '512x512',
-            type: 'image/png'
+            src: '/favicon.svg',
+            sizes: '192x192 512x512',
+            type: 'image/svg+xml',
+            purpose: 'any maskable'
           }
         ]
       }
