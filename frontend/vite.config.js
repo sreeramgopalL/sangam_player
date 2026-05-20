@@ -29,6 +29,20 @@ export default defineConfig({
             }
           },
           {
+            urlPattern: /^https:\/\/f[0-9]+\.backblazeb2\.com\/file\/.*/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'b2-media-cache',
+              expiration: {
+                maxEntries: 100,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+              },
+              cacheableResponse: {
+                statuses: [0, 200, 206]
+              }
+            }
+          },
+          {
             urlPattern: /^http:\/\/localhost:5000\/music\/.*/i,
             handler: 'CacheFirst',
             options: {

@@ -11,6 +11,24 @@ const getSongs = () => {
   return [];
 };
 
+const B2_BUCKET_URL = process.env.B2_BUCKET_URL;
+
+const mapSongs = (songs) => {
+  if (!B2_BUCKET_URL) return songs;
+  return songs.map(song => {
+    if (song.audio_url && song.audio_url.includes('/music/')) {
+      const fileName = song.audio_url.split('/music/')[1];
+      if (fileName) {
+        return {
+          ...song,
+          audio_url: `${B2_BUCKET_URL.replace(/\/$/, '')}/${fileName}`
+        };
+      }
+    }
+    return song;
+  });
+};
+
 router.get('/', (req, res) => {
   try {
     const language = req.query.language || 'all';
@@ -21,7 +39,7 @@ router.get('/', (req, res) => {
         JSON.stringify(s).toLowerCase().includes(language.toLowerCase()));
     }
     
-    res.json(songs);
+    res.json(mapSongs(songs));
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -32,7 +50,7 @@ router.get('/language/:lang', (req, res) => {
   let songs = getSongs();
   songs = songs.filter(s => s.language === lang || 
     JSON.stringify(s).toLowerCase().includes(lang.toLowerCase()));
-  res.json(songs);
+  res.json(mapSongs(songs));
 });
 
 module.exports = router;
