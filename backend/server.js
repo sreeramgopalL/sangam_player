@@ -78,7 +78,7 @@ async function fetchDriveSongs() {
     album: {
       images: [{ url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80' }]
     },
-    audio_url: `https://drive.google.com/uc?export=download&id=${file.id}`,
+    audio_url: `/api/stream-audio/${file.id}`,
     language: 'tamil',
     vibe: 'energetic'
   }));
@@ -92,6 +92,60 @@ app.get('/api/drive-songs', async (req, res) => {
   } catch (err) {
     console.error('Drive fetch error:', err);
     res.status(500).json({ error: err.message });
+  }
+});
+
+// Stream audio from Google Drive supporting seeking/range requests
+app.get('/api/stream-audio/:id', async (req, res) => {
+  try {
+    const fileId = req.params.id;
+    const API_KEY = process.env.GOOGLE_DRIVE_API_KEY;
+
+    if (!API_KEY) {
+      return res.status(500).send('Google Drive API Key is missing');
+    }
+
+    const drive = google.drive({ version: 'v3' });
+
+    // Forward range headers from client browser to Google Drive
+    const headers = {};
+    if (req.headers.range) {
+      headers.range = req.headers.range;
+    }
+
+    const response = await drive.files.get(
+      {
+        fileId: fileId,
+        alt: 'media',
+        key: API_KEY
+      },
+      {
+        responseType: 'stream',
+        headers: headers
+      }
+    );
+
+    // Set headers and status from Google Drive response back to client
+    res.status(response.status);
+
+    const headersToCopy = [
+      'content-type',
+      'content-length',
+      'content-range',
+      'accept-ranges',
+      'cache-control'
+    ];
+
+    headersToCopy.forEach(header => {
+      if (response.headers[header]) {
+        res.setHeader(header, response.headers[header]);
+      }
+    });
+
+    response.data.pipe(res);
+  } catch (err) {
+    console.error('Stream error:', err.message);
+    res.status(500).send('Error streaming audio from Google Drive');
   }
 });
 
