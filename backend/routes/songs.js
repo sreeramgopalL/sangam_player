@@ -13,19 +13,23 @@ const getSongs = () => {
 
 const B2_BUCKET_URL = process.env.B2_BUCKET_URL;
 
-const mapSongs = (songs) => {
-  if (!B2_BUCKET_URL) return songs;
+const mapSongs = (songs, req) => {
   return songs.map(song => {
-    if (song.audio_url && song.audio_url.includes('/music/')) {
-      const fileName = song.audio_url.split('/music/')[1];
+    let url = song.audio_url || '';
+    if (B2_BUCKET_URL && url.includes('/music/')) {
+      const fileName = url.split('/music/')[1];
       if (fileName) {
-        return {
-          ...song,
-          audio_url: `${B2_BUCKET_URL.replace(/\/$/, '')}/${fileName}`
-        };
+        url = `${B2_BUCKET_URL.replace(/\/$/, '')}/${fileName}`;
       }
+    } else if (url.startsWith('http://localhost:5000/music/')) {
+      const fileName = url.split('/music/')[1];
+      const isLocal = req && req.headers.host && req.headers.host.includes('localhost');
+      url = isLocal ? `http://localhost:5000/music/${fileName}` : `/music/${fileName}`;
     }
-    return song;
+    return {
+      ...song,
+      audio_url: url
+    };
   });
 };
 
@@ -39,7 +43,7 @@ router.get('/', (req, res) => {
         JSON.stringify(s).toLowerCase().includes(language.toLowerCase()));
     }
     
-    res.json(mapSongs(songs));
+    res.json(mapSongs(songs, req));
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

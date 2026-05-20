@@ -42,7 +42,7 @@ app.get('/api/local-songs', (req, res) => {
       name: file.replace(/\.mp3$/i, '').replace(/[-_]/g, ' '),
       artists: ['Local'],
       album: { images: [{ url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80' }] },
-      audio_url: `http://localhost:${PORT}/music/${encodeURIComponent(file)}`,
+      audio_url: `/music/${encodeURIComponent(file)}`,
       language: 'tamil',
       vibe: 'energetic'
     }));
