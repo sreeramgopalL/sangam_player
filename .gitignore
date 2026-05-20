@@ -1,0 +1,8 @@
+node_modules/
+.env
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+# Music files are too large for GitHub - host on Backblaze B2
+backend/public/music/

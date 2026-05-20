@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-burgundy-deep text-beige-light font-sans min-h-screen m-0 p-0;
+    background: linear-gradient(135deg, #1A0005 0%, #3D0010 100%);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-beige-light/5 backdrop-blur-md border border-beige-light/10 rounded-xl shadow-lg;
+  }
+  
+  .glass-panel {
+    @apply bg-burgundy-dark/40 backdrop-blur-lg border-r border-beige-light/10;
+  }
+
+  .glitter-text {
+    background: linear-gradient(90deg, #D4AF37, #FFD700, #F5F5DC, #D4AF37);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: glitter 3s linear infinite;
+  }
+}
+
+/* Base Glitter Animation Classes */
+.sparkle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: gold;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  box-shadow: 0 0 4px 1px rgba(255, 215, 0, 0.8);
+}
