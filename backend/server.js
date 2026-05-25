@@ -128,9 +128,9 @@ app.get('/api/stream-audio/:id', async (req, res) => {
     const drive = google.drive({ version: 'v3' });
 
     // Forward range headers from client browser to Google Drive
-    const headers = {};
+    const driveHeaders = {};
     if (req.headers.range) {
-      headers.range = req.headers.range;
+      driveHeaders.range = req.headers.range;
     }
 
     const response = await drive.files.get(
@@ -141,24 +141,36 @@ app.get('/api/stream-audio/:id', async (req, res) => {
       },
       {
         responseType: 'stream',
-        headers: headers
+        headers: driveHeaders
       }
     );
 
-    // Set headers and status from Google Drive response back to client
+    // Set status from Google Drive response
     res.status(response.status);
 
+    // Always set accept-ranges so browsers can seek
+    res.setHeader('accept-ranges', 'bytes');
+
+    // Copy relevant headers from Google Drive response
     const headersToCopy = [
       'content-type',
       'content-length',
       'content-range',
-      'accept-ranges',
       'cache-control'
     ];
 
+    const getHeader = (headersObj, name) => {
+      if (!headersObj) return null;
+      if (typeof headersObj.get === 'function') {
+        return headersObj.get(name);
+      }
+      return headersObj[name] || headersObj[name.toLowerCase()];
+    };
+
     headersToCopy.forEach(header => {
-      if (response.headers[header]) {
-        res.setHeader(header, response.headers[header]);
+      const val = getHeader(response.headers, header);
+      if (val) {
+        res.setHeader(header, val);
       }
     });
 

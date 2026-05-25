@@ -13,9 +13,10 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,jsx}'],
+        navigateFallbackDenylist: [/^\/api/],
         runtimeCaching: [
           {
-            urlPattern: /^http:\/\/localhost:5000\/api\/.*/i,
+            urlPattern: /^\/api\/(?!stream-audio\/).*/i,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'api-cache',
