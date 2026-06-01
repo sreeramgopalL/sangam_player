@@ -24,7 +24,12 @@ const Home = ({ setSharedPlaylist }) => {
       {/* Background decoration */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gold/5 rounded-full blur-[100px] pointer-events-none" />
       
-      <div className="text-center mb-12 z-10 animate-in fade-in slide-in-from-bottom-8 duration-1000">
+      <div className="text-center mb-12 z-10 animate-in fade-in slide-in-from-bottom-8 duration-1000 flex flex-col items-center">
+        <img 
+          src="/logo.png" 
+          alt="Sangam Player Logo" 
+          className="w-24 h-24 md:w-32 md:h-32 rounded-2xl object-cover border-2 border-gold/40 shadow-[0_0_30px_rgba(212,175,55,0.35)] mb-6 hover:scale-105 hover:rotate-2 transition-all duration-300"
+        />
         <h1 className="text-5xl md:text-7xl font-bold mb-6 glitter-text">
           SANGAM PLAYER
         </h1>
