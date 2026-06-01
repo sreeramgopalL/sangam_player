@@ -89,7 +89,7 @@ const Footer = () => {
             </svg>
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/sreeram-gopal-l" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 hover:bg-gold/20 hover:text-gold text-beige-light/80 transition-all border border-white/5 hover:border-gold/30 hover:-translate-y-0.5 shadow-md"
@@ -100,7 +100,7 @@ const Footer = () => {
             </svg>
           </a>
           <a 
-            href="https://instagram.com" 
+            href="https://www.instagram.com/sreeram._3?igsh=MTBmZHZ1YmNrYmw5" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 hover:bg-gold/20 hover:text-gold text-beige-light/80 transition-all border border-white/5 hover:border-gold/30 hover:-translate-y-0.5 shadow-md"
@@ -113,7 +113,7 @@ const Footer = () => {
             </svg>
           </a>
           <a 
-            href="mailto:sreeramgopal@example.com" 
+            href="mailto:sreeramgopal78@gmail.com" 
             className="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 hover:bg-gold/20 hover:text-gold text-beige-light/80 transition-all border border-white/5 hover:border-gold/30 hover:-translate-y-0.5 shadow-md"
             title="Email"
           >
