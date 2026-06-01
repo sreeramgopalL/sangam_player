@@ -12,13 +12,12 @@ const formatTime = (seconds) => {
   return `${m}:${s}`;
 };
 
-const FullScreenPlayer = ({ currentSong, onNext, onPrev, onClose, audioRef, isPlaying, setIsPlaying }) => {
+const FullScreenPlayer = ({ currentSong, onNext, onPrev, onClose, audioRef, isPlaying, setIsPlaying, isFavorite, onToggleFavorite }) => {
   const [progress, setProgress] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [volume, setVolume] = useState(0.8);
   const [isMuted, setIsMuted] = useState(false);
-  const [liked, setLiked] = useState(false);
   const [isShuffled, setIsShuffled] = useState(false);
   const [isRepeating, setIsRepeating] = useState(false);
 
@@ -128,17 +127,17 @@ const FullScreenPlayer = ({ currentSong, onNext, onPrev, onClose, audioRef, isPl
 
         {/* Song Info + Like */}
         <div className="flex items-center justify-between mb-5">
-          <div className="flex-1 min-w-0 pr-4">
+          <div className="flex-grow min-w-0 pr-4">
             <h2 className="text-white font-bold text-xl truncate leading-tight">{currentSong?.name}</h2>
             <p className="text-white/60 text-sm mt-0.5 truncate">{currentSong?.artists?.join(', ')}</p>
           </div>
           <button
-            onClick={() => setLiked(!liked)}
-            className={`w-10 h-10 flex items-center justify-center rounded-full transition-all duration-300 ${liked ? 'bg-red-500/20' : 'bg-white/10'}`}
+            onClick={onToggleFavorite}
+            className={`w-10 h-10 flex items-center justify-center rounded-full transition-all duration-300 ${isFavorite ? 'bg-red-500/20' : 'bg-white/10'}`}
           >
             <Heart
               size={20}
-              className={`transition-colors duration-300 ${liked ? 'text-red-400 fill-red-400' : 'text-white/70'}`}
+              className={`transition-colors duration-300 ${isFavorite ? 'text-red-400 fill-red-400' : 'text-white/70'}`}
             />
           </button>
         </div>

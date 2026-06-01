@@ -3,7 +3,7 @@ import { Play, Pause, SkipForward } from 'lucide-react';
 import { useGlitter } from '../hooks/useGlitter';
 import FullScreenPlayer from './FullScreenPlayer';
 
-const MusicPlayer = ({ currentSong, playlist, onNext, onPrev }) => {
+const MusicPlayer = ({ currentSong, playlist, onNext, onPrev, favorites = [], onToggleFavorite }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
   const [showFullScreen, setShowFullScreen] = useState(false);
@@ -83,6 +83,8 @@ const MusicPlayer = ({ currentSong, playlist, onNext, onPrev }) => {
           audioRef={audioRef}
           isPlaying={isPlaying}
           setIsPlaying={setIsPlaying}
+          isFavorite={favorites.some(s => s.id === currentSong?.id)}
+          onToggleFavorite={() => onToggleFavorite(currentSong)}
         />
       )}
 

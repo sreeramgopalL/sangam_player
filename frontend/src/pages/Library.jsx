@@ -5,7 +5,7 @@ import { useSpotify } from '../hooks/useSpotify';
 import { Loader2, Cloud, HardDrive } from 'lucide-react';
 
 // Library page – displays local files or Google Drive files dynamically
-const Library = ({ setCurrentSong }) => {
+const Library = ({ setCurrentSong, setSharedPlaylist }) => {
   const { songs, loading, error, fetchLibrarySongs } = useSpotify();
 
   // Load library songs on component mount only
@@ -45,7 +45,14 @@ const Library = ({ setCurrentSong }) => {
       ) : (
         <PlaylistPanel
           songs={songs}
-          onPlaySong={setCurrentSong}
+          onPlaySong={(song) => {
+            setCurrentSong(song);
+            setSharedPlaylist({
+              songs: songs,
+              description: isCloud ? "Google Drive Library" : "Local Music Library",
+              vibeText: "Library"
+            });
+          }}
           title={isCloud ? "Google Drive Playlist" : "Local Music Playlist"}
         />
       )}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MusicPlayer from './components/MusicPlayer';
@@ -11,9 +11,33 @@ import Library from './pages/Library';
 function App() {
   const [currentSong, setCurrentSong] = useState(null);
   const [sharedPlaylist, setSharedPlaylist] = useState(null); // { songs: [], description: "", vibeText: "" }
+  const [favorites, setFavorites] = useState(() => {
+    try {
+      const saved = localStorage.getItem('sangam_favorites');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
+
+  useEffect(() => {
+    localStorage.setItem('sangam_favorites', JSON.stringify(favorites));
+  }, [favorites]);
+
+  const toggleFavorite = (song) => {
+    if (!song) return;
+    setFavorites(prev => {
+      const exists = prev.some(s => s.id === song.id);
+      if (exists) {
+        return prev.filter(s => s.id !== song.id);
+      } else {
+        return [...prev, song];
+      }
+    });
+  };
 
   const handleNextSong = () => {
-    if (!sharedPlaylist || !sharedPlaylist.songs) return;
+    if (!sharedPlaylist || !sharedPlaylist.songs || sharedPlaylist.songs.length === 0) return;
     const currentIndex = sharedPlaylist.songs.findIndex(s => s.id === currentSong?.id);
     if (currentIndex !== -1 && currentIndex < sharedPlaylist.songs.length - 1) {
       setCurrentSong(sharedPlaylist.songs[currentIndex + 1]);
@@ -24,7 +48,7 @@ function App() {
   };
 
   const handlePrevSong = () => {
-    if (!sharedPlaylist || !sharedPlaylist.songs) return;
+    if (!sharedPlaylist || !sharedPlaylist.songs || sharedPlaylist.songs.length === 0) return;
     const currentIndex = sharedPlaylist.songs.findIndex(s => s.id === currentSong?.id);
     if (currentIndex > 0) {
       setCurrentSong(sharedPlaylist.songs[currentIndex - 1]);
@@ -62,12 +86,8 @@ function App() {
               path="/library" 
               element={
                 <Library 
-                  setCurrentSong={(song) => {
-                    setCurrentSong(song);
-                    if (!sharedPlaylist) {
-                      setSharedPlaylist({ songs: [song], description: "Library Selection", vibeText: "Library" });
-                    }
-                  }} 
+                  setCurrentSong={setCurrentSong}
+                  setSharedPlaylist={setSharedPlaylist}
                 />
               } 
             />
@@ -81,6 +101,8 @@ function App() {
           playlist={sharedPlaylist?.songs || []}
           onNext={handleNextSong}
           onPrev={handlePrevSong}
+          favorites={favorites}
+          onToggleFavorite={toggleFavorite}
         />
       </div>
     </Router>
