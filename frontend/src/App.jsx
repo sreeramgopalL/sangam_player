@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MusicPlayer from './components/MusicPlayer';
@@ -19,6 +19,14 @@ function App() {
       return [];
     }
   });
+
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [volume, setVolume] = useState(0.8);
+  const [isMuted, setIsMuted] = useState(false);
+  const audioRef = useRef(null);
 
   useEffect(() => {
     localStorage.setItem('audio_arcs_favorites', JSON.stringify(favorites));
@@ -57,6 +65,32 @@ function App() {
     }
   };
 
+  // Auto-play when song changes
+  useEffect(() => {
+    if (audioRef.current && currentSong?.audio_url) {
+      audioRef.current.load();
+      audioRef.current.play()
+        .then(() => setIsPlaying(true))
+        .catch(console.error);
+      setProgress(0);
+      setCurrentTime(0);
+    }
+  }, [currentSong]);
+
+  const handleTimeUpdate = () => {
+    if (audioRef.current && audioRef.current.duration) {
+      setProgress((audioRef.current.currentTime / audioRef.current.duration) * 100);
+      setCurrentTime(audioRef.current.currentTime);
+      setDuration(audioRef.current.duration);
+    }
+  };
+
+  const handleEnded = () => {
+    setProgress(0);
+    setCurrentTime(0);
+    handleNextSong();
+  };
+
   return (
     <Router>
       <div className="min-h-screen bg-burgundy-deep text-beige-light font-sans relative overflow-x-hidden selection:bg-gold selection:text-burgundy-deep">
@@ -90,6 +124,20 @@ function App() {
                   sharedPlaylist={sharedPlaylist} 
                   setCurrentSong={setCurrentSong} 
                   currentSong={currentSong}
+                  isPlaying={isPlaying}
+                  setIsPlaying={setIsPlaying}
+                  progress={progress}
+                  currentTime={currentTime}
+                  duration={duration}
+                  volume={volume}
+                  setVolume={setVolume}
+                  isMuted={isMuted}
+                  setIsMuted={setIsMuted}
+                  audioRef={audioRef}
+                  onNext={handleNextSong}
+                  onPrev={handlePrevSong}
+                  favorites={favorites}
+                  toggleFavorite={toggleFavorite}
                 />
               } 
             />
@@ -107,6 +155,18 @@ function App() {
 
         <Footer />
 
+        {/* Global active audio element */}
+        {currentSong?.audio_url && (
+          <audio
+            ref={audioRef}
+            src={currentSong.audio_url}
+            onPlay={() => setIsPlaying(true)}
+            onPause={() => setIsPlaying(false)}
+            onTimeUpdate={handleTimeUpdate}
+            onEnded={handleEnded}
+          />
+        )}
+
         <MusicPlayer 
           currentSong={currentSong} 
           playlist={sharedPlaylist?.songs || []}
@@ -114,6 +174,10 @@ function App() {
           onPrev={handlePrevSong}
           favorites={favorites}
           onToggleFavorite={toggleFavorite}
+          isPlaying={isPlaying}
+          setIsPlaying={setIsPlaying}
+          progress={progress}
+          audioRef={audioRef}
         />
       </div>
     </Router>

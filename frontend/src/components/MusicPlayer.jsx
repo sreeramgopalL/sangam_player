@@ -1,37 +1,25 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Play, Pause, SkipForward } from 'lucide-react';
 import { useGlitter } from '../hooks/useGlitter';
 import FullScreenPlayer from './FullScreenPlayer';
 
-const MusicPlayer = ({ currentSong, playlist, onNext, onPrev, favorites = [], onToggleFavorite }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [progress, setProgress] = useState(0);
+const MusicPlayer = ({ 
+  currentSong, 
+  playlist, 
+  onNext, 
+  onPrev, 
+  favorites = [], 
+  onToggleFavorite,
+  isPlaying,
+  setIsPlaying,
+  progress,
+  audioRef
+}) => {
   const [showFullScreen, setShowFullScreen] = useState(false);
-  const audioRef = useRef(null);
   const { triggerBurst } = useGlitter();
 
-  // Auto-play when song changes
-  useEffect(() => {
-    if (audioRef.current && currentSong?.audio_url) {
-      audioRef.current.load();
-      audioRef.current.play().then(() => setIsPlaying(true)).catch(console.error);
-      setProgress(0);
-    }
-  }, [currentSong]);
-
-  const handleTimeUpdate = () => {
-    if (audioRef.current && audioRef.current.duration) {
-      setProgress((audioRef.current.currentTime / audioRef.current.duration) * 100);
-    }
-  };
-
-  const handleEnded = () => {
-    setProgress(0);
-    onNext();
-  };
-
   const togglePlay = (e) => {
-    e.stopPropagation();
+    if (e) e.stopPropagation();
     if (!currentSong?.audio_url || !audioRef.current) return;
     if (e) triggerBurst(e.clientX, e.clientY);
     if (isPlaying) {
@@ -61,18 +49,6 @@ const MusicPlayer = ({ currentSong, playlist, onNext, onPrev, favorites = [], on
 
   return (
     <>
-      {/* Hidden audio element */}
-      {currentSong.audio_url && (
-        <audio
-          ref={audioRef}
-          src={currentSong.audio_url}
-          onPlay={() => setIsPlaying(true)}
-          onPause={() => setIsPlaying(false)}
-          onTimeUpdate={handleTimeUpdate}
-          onEnded={handleEnded}
-        />
-      )}
-
       {/* Full Screen Player */}
       {showFullScreen && (
         <FullScreenPlayer
@@ -123,7 +99,7 @@ const MusicPlayer = ({ currentSong, playlist, onNext, onPrev, favorites = [], on
             <div className="flex items-center gap-2 flex-shrink-0">
               <button
                 onClick={togglePlay}
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-white/15 hover:bg-white/25 active:scale-95 transition-all"
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-white/15 hover:bg-white/25 active:scale-95 transition-all cursor-pointer"
               >
                 {isPlaying
                   ? <Pause size={16} className="text-white fill-white" />
@@ -132,7 +108,7 @@ const MusicPlayer = ({ currentSong, playlist, onNext, onPrev, favorites = [], on
               </button>
               <button
                 onClick={handleNext}
-                className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 active:scale-95 transition-all"
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 active:scale-95 transition-all cursor-pointer"
               >
                 <SkipForward size={16} className="text-white/80" />
               </button>
