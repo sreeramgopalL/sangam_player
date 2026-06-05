@@ -129,9 +129,23 @@ app.get('/api/songs/cover/:filename', (req, res) => {
       return res.send(cached.data);
     }
 
-    // Read ID3 tags
-    const tags = NodeID3.read(filePath);
+    // 1. Check for companion image file with the same name (e.g. SongName.jpg for SongName.mp3)
+    const baseName = filename.replace(/\.mp3$/i, '');
+    const imageExtensions = ['.jpg', '.jpeg', '.png', '.webp', '.GIF', '.JPG', '.PNG', '.WEBP'];
+    for (const ext of imageExtensions) {
+      const companionImgPath = path.join(MUSIC_DIR, baseName + ext);
+      if (fs.existsSync(companionImgPath)) {
+        const mimeType = ext.toLowerCase().endsWith('png') ? 'image/png' : ext.toLowerCase().endsWith('webp') ? 'image/webp' : 'image/jpeg';
+        const data = fs.readFileSync(companionImgPath);
+        coverCache[filename] = { mime: mimeType, data };
+        res.setHeader('Content-Type', mimeType);
+        res.setHeader('Cache-Control', 'public, max-age=86400');
+        return res.send(data);
+      }
+    }
 
+    // 2. Read embedded ID3 tags
+    const tags = NodeID3.read(filePath);
     if (tags && tags.image && tags.image.imageBuffer) {
       const mime = tags.image.mime || 'image/jpeg';
       const data = tags.image.imageBuffer;
@@ -142,11 +156,26 @@ app.get('/api/songs/cover/:filename', (req, res) => {
       res.setHeader('Content-Type', mime);
       res.setHeader('Cache-Control', 'public, max-age=86400');
       return res.send(data);
-    } else {
-      // Cache the "no cover" result to avoid parsing again
-      coverCache[filename] = { noCover: true };
-      return res.redirect('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80');
     }
+
+    // 3. Check for folder-level cover images (e.g. cover.jpg, folder.png, etc.)
+    const folderCovers = ['cover.jpg', 'cover.png', 'folder.jpg', 'folder.png', 'album.jpg', 'album.png'];
+    for (const coverName of folderCovers) {
+      const folderCoverPath = path.join(MUSIC_DIR, coverName);
+      if (fs.existsSync(folderCoverPath)) {
+        const mimeType = coverName.endsWith('png') ? 'image/png' : 'image/jpeg';
+        const data = fs.readFileSync(folderCoverPath);
+        coverCache[filename] = { mime: mimeType, data };
+        res.setHeader('Content-Type', mimeType);
+        res.setHeader('Cache-Control', 'public, max-age=86400');
+        return res.send(data);
+      }
+    }
+
+    // 4. Cache the "no cover" result to avoid parsing again
+    coverCache[filename] = { noCover: true };
+    return res.redirect('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80');
+
   } catch (err) {
     console.error('Error extracting cover:', err.message);
     res.redirect('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80');
