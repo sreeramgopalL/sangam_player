@@ -182,6 +182,32 @@ app.get('/api/songs/cover/:filename', (req, res) => {
   }
 });
 
+// Proxy route to stream Google Drive cover images using API key
+app.get('/api/drive/cover/:id', async (req, res) => {
+  try {
+    const fileId = req.params.id;
+    const API_KEY = process.env.GOOGLE_DRIVE_API_KEY;
+    if (!API_KEY) {
+      return res.redirect('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80');
+    }
+    
+    const url = `https://www.googleapis.com/drive/v3/files/${fileId}?alt=media&key=${API_KEY}`;
+    const axios = require('axios');
+    const response = await axios({
+      method: 'get',
+      url: url,
+      responseType: 'stream'
+    });
+
+    res.setHeader('Content-Type', response.headers['content-type'] || 'image/jpeg');
+    res.setHeader('Cache-Control', 'public, max-age=86400');
+    response.data.pipe(res);
+  } catch (err) {
+    console.error('Error fetching drive cover:', err.message);
+    res.redirect('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80');
+  }
+});
+
 // Routes (registered AFTER cover art route)
 const songsRoutes = require('./routes/songs');
 const playlistRoutes = require('./routes/playlist');
@@ -231,26 +257,68 @@ async function fetchDriveSongs() {
   const { google } = require('googleapis');
   const drive = google.drive({ version: 'v3' });
 
+  // List all files in the parent folder
   const res = await drive.files.list({
-    q: `'${FOLDER_ID}' in parents and mimeType='audio/mpeg' and trashed=false`,
-    fields: 'files(id, name, thumbnailLink)',
+    q: `'${FOLDER_ID}' in parents and trashed=false`,
+    fields: 'files(id, name, mimeType, thumbnailLink)',
     pageSize: 1000,
     key: API_KEY
   });
 
-  const files = res.data.files || [];
+  const allFiles = res.data.files || [];
 
-  return files.map((file) => ({
-    id: `drive_${file.id}`,
-    name: file.name.replace(/\.mp3$/i, '').replace(/[-_]/g, ' '),
-    artists: ['Google Drive'],
-    album: {
-      images: [{ url: file.thumbnailLink || 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80' }]
-    },
-    audio_url: `/api/stream-audio/${file.id}`,
-    language: 'tamil',
-    vibe: 'energetic'
-  }));
+  // Filter audio and image files
+  const audioFiles = allFiles.filter(f => 
+    (f.mimeType && f.mimeType.startsWith('audio/')) || 
+    f.name.toLowerCase().endsWith('.mp3')
+  );
+
+  const imageFiles = allFiles.filter(f => 
+    (f.mimeType && f.mimeType.startsWith('image/')) || 
+    f.name.toLowerCase().endsWith('.jpg') ||
+    f.name.toLowerCase().endsWith('.jpeg') ||
+    f.name.toLowerCase().endsWith('.png') ||
+    f.name.toLowerCase().endsWith('.webp')
+  );
+
+  // Look for folder cover fallbacks
+  const folderCoverNames = ['cover.jpg', 'cover.png', 'folder.jpg', 'folder.png', 'album.jpg', 'album.png'];
+  const folderCoverFile = imageFiles.find(img => folderCoverNames.includes(img.name.toLowerCase()));
+
+  return audioFiles.map((file) => {
+    const audioBaseName = file.name.replace(/\.mp3$/i, '').trim().toLowerCase();
+
+    // Look for same-name companion image file
+    const matchedImage = imageFiles.find(img => {
+      const imgBaseName = img.name.replace(/\.(jpg|jpeg|png|webp)$/i, '').trim().toLowerCase();
+      return imgBaseName === audioBaseName;
+    });
+
+    let imageUrl = 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80';
+    if (matchedImage) {
+      imageUrl = `/api/drive/cover/${matchedImage.id}`;
+    } else if (file.thumbnailLink) {
+      imageUrl = file.thumbnailLink;
+    } else if (folderCoverFile) {
+      imageUrl = `/api/drive/cover/${folderCoverFile.id}`;
+    }
+
+    const nameCleaned = file.name.replace(/\.mp3$/i, '').replace(/[-_]/g, ' ');
+    const language = detectLanguageFromFilename(file.name);
+    const vibe = detectVibeFromFilename(file.name);
+
+    return {
+      id: `drive_${file.id}`,
+      name: nameCleaned,
+      artists: ['Audio ArcS Artist'],
+      album: {
+        images: [{ url: imageUrl }]
+      },
+      audio_url: `/api/stream-audio/${file.id}`,
+      language,
+      vibe
+    };
+  });
 }
 
 // Unified Library songs route supporting both Local and Google Drive
