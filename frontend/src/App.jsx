@@ -13,7 +13,7 @@ function App() {
   const [sharedPlaylist, setSharedPlaylist] = useState(null); // { songs: [], description: "", vibeText: "" }
   const [favorites, setFavorites] = useState(() => {
     try {
-      const saved = localStorage.getItem('sangam_favorites');
+      const saved = localStorage.getItem('audio_arcs_favorites');
       return saved ? JSON.parse(saved) : [];
     } catch {
       return [];
@@ -21,7 +21,7 @@ function App() {
   });
 
   useEffect(() => {
-    localStorage.setItem('sangam_favorites', JSON.stringify(favorites));
+    localStorage.setItem('audio_arcs_favorites', JSON.stringify(favorites));
   }, [favorites]);
 
   const toggleFavorite = (song) => {

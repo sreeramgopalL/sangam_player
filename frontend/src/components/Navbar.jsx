@@ -9,10 +9,10 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-3 group">
           <img 
             src={logo} 
-            alt="Sangam Player Logo" 
+            alt="Audio ArcS Logo" 
             className="w-9 h-9 rounded-xl object-cover border border-gold/30 shadow-[0_0_10px_rgba(212,175,55,0.2)] group-hover:rotate-6 group-hover:scale-105 transition-all duration-300"
           />
-          <span className="text-2xl font-bold glitter-text tracking-wider">SANGAM PLAYER</span>
+          <span className="text-2xl font-bold glitter-text tracking-wider">Audio ArcS</span>
         </Link>
         <div className="flex gap-6">
           <Link to="/" className="hover:text-gold transition-colors font-medium">Home</Link>

@@ -60,8 +60,8 @@ export default defineConfig({
         ]
       },
       manifest: {
-        name: 'Sangam Player',
-        short_name: 'Sangam',
+        name: 'Audio ArcS',
+        short_name: 'Audio ArcS',
         description: 'Vibe-based Music Player',
         theme_color: '#3C0008',
         icons: [

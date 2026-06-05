@@ -54,7 +54,7 @@ const Footer = () => {
           message: [
             "Tap the three-dots menu (⋮ or ⋯) in your browser's top-right corner.",
             "Select 'Install app' or 'Add to Home screen' from the menu.",
-            "Confirm the prompt to pin Sangam Player to your desktop or device launcher!"
+            "Confirm the prompt to pin Audio ArcS to your desktop or device launcher!"
           ],
           type: "generic"
         });
