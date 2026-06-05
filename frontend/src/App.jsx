@@ -71,7 +71,18 @@ function App() {
 
         <main className="relative z-10 min-h-[70vh]">
           <Routes>
-            <Route path="/" element={<Home setSharedPlaylist={setSharedPlaylist} />} />
+            <Route 
+              path="/" 
+              element={
+                <Home 
+                  setCurrentSong={setCurrentSong} 
+                  currentSong={currentSong} 
+                  setSharedPlaylist={setSharedPlaylist} 
+                  favorites={favorites} 
+                  toggleFavorite={toggleFavorite} 
+                />
+              } 
+            />
             <Route 
               path="/player" 
               element={

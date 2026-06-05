@@ -1,3452 +1,3452 @@
 [
   {
     "id": "1",
-    "name": "Aagasa Veeran",
+    "name": "Aagasa Veeran   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan, Pradeep Kumar, Dhee - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Aagasa%20Veeran.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Aagasa%20Veeran.mp3",
+    "audio_url": "/music/Aagasa%20Veeran.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "2",
-    "name": "Aariraro",
+    "name": "Aariraro   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "K. S. Chithra - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Aariraro.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Aariraro.mp3",
+    "audio_url": "/music/Aariraro.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "3",
-    "name": "Achacho",
+    "name": "Achacho   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Kharesma Ravichandran - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Achacho.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Achacho.mp3",
+    "audio_url": "/music/Achacho.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "4",
-    "name": "Adheeraa-MassTamilan.dev",
+    "name": "Adheeraa   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "A.R. Rahman, Vagu Mazan, Thoughtsfornow - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Adheeraa-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Adheeraa-MassTamilan.dev.mp3",
+    "audio_url": "/music/Adheeraa-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "5",
-    "name": "Aen-Enakku-Mayakkam",
+    "name": "Aen Enakku Mayakkam   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Jayadev, Sangeetha Rajeshwaran, Megha, Ramya & Sheepa - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Aen-Enakku-Mayakkam.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Aen-Enakku-Mayakkam.mp3",
+    "audio_url": "/music/Aen-Enakku-Mayakkam.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "6",
-    "name": "Aeroplanil Yeri",
+    "name": "Aeroplanil Yeri   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja, Mukesh, Chinnaponnu, Sugandhi, Guru Ayyadurai - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Aeroplanil%20Yeri.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Aeroplanil%20Yeri.mp3",
+    "audio_url": "/music/Aeroplanil%20Yeri.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "7",
-    "name": "Agasatha",
+    "name": "Agasatha   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Kalyani Nair,Pradeep Kumar - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Agasatha.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Agasatha.mp3",
+    "audio_url": "/music/Agasatha.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "8",
-    "name": "AK - King Of The Jungle",
+    "name": "AK   King Of The Jungle   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/AK%20-%20King%20Of%20The%20Jungle.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/AK%20-%20King%20Of%20The%20Jungle.mp3",
+    "audio_url": "/music/AK%20-%20King%20Of%20The%20Jungle.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "9",
-    "name": "AK's Hunt Begins",
+    "name": "AK's Hunt Begins   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/AK's%20Hunt%20Begins.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/AK's%20Hunt%20Begins.mp3",
+    "audio_url": "/music/AK's%20Hunt%20Begins.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "10",
-    "name": "AK-Theme-Music-MassTamilan.com",
+    "name": "AK Theme Music   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Instrumental - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/AK-Theme-Music-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/AK-Theme-Music-MassTamilan.com.mp3",
+    "audio_url": "/music/AK-Theme-Music-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "11",
-    "name": "Alaipayuthey-Kanna",
+    "name": "Alaipayuthey Kanna   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Kalyani Menon, Harini & Neyveli Ramalakshmi Krishna - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Alaipayuthey-Kanna.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Alaipayuthey-Kanna.mp3",
+    "audio_url": "/music/Alaipayuthey-Kanna.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "12",
-    "name": "Ambikapathy",
+    "name": "Ambikapathy   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Naresh Iyer - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ambikapathy.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ambikapathy.mp3",
+    "audio_url": "/music/Ambikapathy.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "13",
-    "name": "Amman song",
+    "name": "Amman song   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Aruna Ravindran, V.M.Mahalingam - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Amman%20song.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Amman%20song.mp3",
+    "audio_url": "/music/Amman%20song.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "14",
-    "name": "Andha-Kanna-Paathaakaa-MassTamilan.io",
+    "name": "Andha Kanna Paathaakaa   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Andha-Kanna-Paathaakaa-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Andha-Kanna-Paathaakaa-MassTamilan.io.mp3",
+    "audio_url": "/music/Andha-Kanna-Paathaakaa-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "15",
-    "name": "Andome-Kidukidunga-MassTamilan.dev",
+    "name": "Andome Kidukidunga   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Senthil Ganesh - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Andome-Kidukidunga-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Andome-Kidukidunga-MassTamilan.dev.mp3",
+    "audio_url": "/music/Andome-Kidukidunga-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "16",
-    "name": "Aye-Aye-Aye-MassTamilan.fm",
+    "name": "Aye Aye Aye   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Aye-Aye-Aye-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Aye-Aye-Aye-MassTamilan.fm.mp3",
+    "audio_url": "/music/Aye-Aye-Aye-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "17",
-    "name": "Ayudha Pooja",
+    "name": "Ayudha Pooja   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Kaala Bhairava, Pa Vijay - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ayudha%20Pooja.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ayudha%20Pooja.mp3",
+    "audio_url": "/music/Ayudha%20Pooja.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "18",
-    "name": "Azhage-MassTamilan.io",
+    "name": "Azhage   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Nakul Abhyankar - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Azhage-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Azhage-MassTamilan.io.mp3",
+    "audio_url": "/music/Azhage-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "19",
-    "name": "Babel's Warning",
+    "name": "Babel's Warning   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Babel's%20Warning.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Babel's%20Warning.mp3",
+    "audio_url": "/music/Babel's%20Warning.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "20",
-    "name": "Baby",
+    "name": "Baby   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Baby.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Baby.mp3",
+    "audio_url": "/music/Baby.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "21",
-    "name": "Bagulu Odayum Dagulu Maari (The Return of Maari)",
+    "name": "Bagulu Odayum Dagulu Maari (The Return of Maari)   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Dhanush - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Bagulu%20Odayum%20Dagulu%20Maari%20(The%20Return%20of%20Maari).mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Bagulu%20Odayum%20Dagulu%20Maari%20(The%20Return%20of%20Maari).mp3",
+    "audio_url": "/music/Bagulu%20Odayum%20Dagulu%20Maari%20(The%20Return%20of%20Maari).mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "22",
-    "name": "Battery Theme",
+    "name": "Battery Theme   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Battery%20Theme.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Battery%20Theme.mp3",
+    "audio_url": "/music/Battery%20Theme.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "23",
-    "name": "Beat-of-Master-(Instrumental)-MassTamilan.io",
+    "name": "Beat of Master (Instrumental)   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Instrumental - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Beat-of-Master-(Instrumental)-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Beat-of-Master-(Instrumental)-MassTamilan.io.mp3",
+    "audio_url": "/music/Beat-of-Master-(Instrumental)-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "24",
-    "name": "Big B Theme",
+    "name": "Big B Theme   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Big%20B%20Theme.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Big%20B%20Theme.mp3",
+    "audio_url": "/music/Big%20B%20Theme.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "25",
-    "name": "Blud-Is-On-His-Way-MassTamilan.dev",
+    "name": "Blud Is On His Way   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "Sai Abhyankkar - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Blud-Is-On-His-Way-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Blud-Is-On-His-Way-MassTamilan.dev.mp3",
+    "audio_url": "/music/Blud-Is-On-His-Way-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "26",
-    "name": "Chellamma-MassTamilan.fm",
+    "name": "Chellamma   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander,Jonita Gandhi - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Chellamma-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Chellamma-MassTamilan.fm.mp3",
+    "audio_url": "/music/Chellamma-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "27",
-    "name": "Chikitu",
+    "name": "Chikitu   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, T. Rajendar, Arivu - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Chikitu.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Chikitu.mp3",
+    "audio_url": "/music/Chikitu.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "28",
-    "name": "Chikku-Bukku-Chikku-MassTamilan.com",
+    "name": "Chikku Bukku Chikku   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Chinna Ponnu - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Chikku-Bukku-Chikku-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Chikku-Bukku-Chikku-MassTamilan.com.mp3",
+    "audio_url": "/music/Chikku-Bukku-Chikku-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "29",
-    "name": "Clean Shot",
+    "name": "Clean Shot   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Amogh Balaji, Malaysia Vasudevan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Clean%20Shot.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Clean%20Shot.mp3",
+    "audio_url": "/music/Clean%20Shot.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "30",
-    "name": "Coolie Disco",
+    "name": "Coolie Disco   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Coolie%20Disco.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Coolie%20Disco.mp3",
+    "audio_url": "/music/Coolie%20Disco.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "31",
-    "name": "Daavudi",
+    "name": "Daavudi   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Nakash Aziz, Ramya Behara, Vignesh Shivan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Daavudi.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Daavudi.mp3",
+    "audio_url": "/music/Daavudi.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "32",
-    "name": "Darling-Dambakku-Reprise",
+    "name": "Darling Dambakku (Reprise)   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Nivas, Kalpana - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Darling-Dambakku-Reprise.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Darling-Dambakku-Reprise.mp3",
+    "audio_url": "/music/Darling-Dambakku-Reprise.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "33",
-    "name": "Darling-Dambakku",
+    "name": "Darling Dambakku   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Benny Dayal, Sunidhi Chauhan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Darling-Dambakku.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Darling-Dambakku.mp3",
+    "audio_url": "/music/Darling-Dambakku.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "34",
-    "name": "Desaiyum-Izhanthene",
+    "name": "Desaiyum Izhanthene   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Meenakshi Iyer, Santhosh Narayanan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Desaiyum-Izhanthene.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Desaiyum-Izhanthene.mp3",
+    "audio_url": "/music/Desaiyum-Izhanthene.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "35",
-    "name": "Destroying The Past",
+    "name": "Destroying The Past   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Destroying%20The%20Past.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Destroying%20The%20Past.mp3",
+    "audio_url": "/music/Destroying%20The%20Past.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "36",
-    "name": "Ding-Dong",
+    "name": "Ding Dong   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Arun Raja, Mose - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ding-Dong.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ding-Dong.mp3",
+    "audio_url": "/music/Ding-Dong.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "37",
-    "name": "Don'u Don'u Don'u (The Don's Romance)",
+    "name": "Don'u Don'u Don'u (The Don's Romance)   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Alisha Thomas - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Don'u%20Don'u%20Don'u%20(The%20Don's%20Romance).mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Don'u%20Don'u%20Don'u%20(The%20Don's%20Romance).mp3",
+    "audio_url": "/music/Don'u%20Don'u%20Don'u%20(The%20Don's%20Romance).mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "38",
-    "name": "Een-Nenju",
+    "name": "Een Nenju   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vijay Prakash, Saindhavi - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Een-Nenju.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Een-Nenju.mp3",
+    "audio_url": "/music/Een-Nenju.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "39",
-    "name": "Emotion Of Father-Son",
+    "name": "Emotion Of Father Son   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Emotion%20Of%20Father-Son.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Emotion%20Of%20Father-Son.mp3",
+    "audio_url": "/music/Emotion%20Of%20Father-Son.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "40",
-    "name": "En-Nenjil-Ningalane",
+    "name": "En Nenjil Ningalane   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Harish Ragavendra - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/En-Nenjil-Ningalane.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/En-Nenjil-Ningalane.mp3",
+    "audio_url": "/music/En-Nenjil-Ningalane.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "41",
-    "name": "Enda-Mapla",
+    "name": "Enda Mapla   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Gana Bala,Sathish,Dhee - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Enda-Mapla.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Enda-Mapla.mp3",
+    "audio_url": "/music/Enda-Mapla.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "42",
-    "name": "Endrendrum-Punnagai",
+    "name": "Endrendrum Punnagai   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Praveen, Shankar, Clinton & Srinivas - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Endrendrum-Punnagai.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Endrendrum-Punnagai.mp3",
+    "audio_url": "/music/Endrendrum-Punnagai.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "43",
-    "name": "Evano-Oruvan-Vasikiran",
+    "name": "Evano Oruvan Vasikiran   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Swarnalatha - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Evano-Oruvan-Vasikiran.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Evano-Oruvan-Vasikiran.mp3",
+    "audio_url": "/music/Evano-Oruvan-Vasikiran.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "44",
-    "name": "Father's Promise",
+    "name": "Father's Promise   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Father's%20Promise.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Father's%20Promise.mp3",
+    "audio_url": "/music/Father's%20Promise.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "45",
-    "name": "Fear Song",
+    "name": "Fear Song   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Vishnu Edavan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Fear%20Song.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Fear%20Song.mp3",
+    "audio_url": "/music/Fear%20Song.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "46",
-    "name": "Fiyah-Fiyah-MassTamilan.io",
+    "name": "Fiyah Fiyah   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Navz-47 - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Fiyah-Fiyah-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Fiyah-Fiyah-MassTamilan.io.mp3",
+    "audio_url": "/music/Fiyah-Fiyah-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "47",
-    "name": "Ghost Theme",
+    "name": "Ghost Theme   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ghost%20Theme.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ghost%20Theme.mp3",
+    "audio_url": "/music/Ghost%20Theme.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "48",
-    "name": "Glimpse of Garudan",
+    "name": "Glimpse of Garudan   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Glimpse%20of%20Garudan.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Glimpse%20of%20Garudan.mp3",
+    "audio_url": "/music/Glimpse%20of%20Garudan.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "49",
-    "name": "Hands Up",
+    "name": "Hands Up   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Hands%20Up.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Hands%20Up.mp3",
+    "audio_url": "/music/Hands%20Up.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "50",
-    "name": "Hero Intro",
+    "name": "Hero Intro   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Hero%20Intro.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Hero%20Intro.mp3",
+    "audio_url": "/music/Hero%20Intro.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "51",
-    "name": "Hey-Suzhali",
+    "name": "Hey Suzhali   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vijay Narain - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Hey-Suzhali.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Hey-Suzhali.mp3",
+    "audio_url": "/music/Hey-Suzhali.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "52",
-    "name": "Hoo-Haa",
+    "name": "Hoo Haa   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Sean Roldan, Santhosh Narayanan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Hoo-Haa.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Hoo-Haa.mp3",
+    "audio_url": "/music/Hoo-Haa.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "53",
-    "name": "Hunter Vantaar",
+    "name": "Hunter Vantaar   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Siddharth Basrur, Arivu - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Hunter%20Vantaar.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Hunter%20Vantaar.mp3",
+    "audio_url": "/music/Hunter%20Vantaar.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "54",
-    "name": "I Am The Danger",
+    "name": "I Am The Danger   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Siddharth Basrur - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/I%20Am%20The%20Danger.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/I%20Am%20The%20Danger.mp3",
+    "audio_url": "/music/I%20Am%20The%20Danger.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "55",
-    "name": "Idhu-Porkkalama",
+    "name": "Idhu Porkkalama   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Harish Raghavendra - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Idhu-Porkkalama.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Idhu-Porkkalama.mp3",
+    "audio_url": "/music/Idhu-Porkkalama.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "56",
-    "name": "Idicha-Pacharisi",
+    "name": "Idicha Pacharisi   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Ranjith, Sangeetha, Vinaya - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Idicha-Pacharisi.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Idicha-Pacharisi.mp3",
+    "audio_url": "/music/Idicha-Pacharisi.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "57",
-    "name": "Indru-Netru-Naalai",
+    "name": "Indru Netru Naalai   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Shankar Mahadevan, Aalap Raju - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Indru-Netru-Naalai.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Indru-Netru-Naalai.mp3",
+    "audio_url": "/music/Indru-Netru-Naalai.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "58",
-    "name": "iPhone-6-Nee-Yendral",
+    "name": "iPhone 6 Nee Yendral   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Hip Hop Thamizha - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/iPhone-6-Nee-Yendral.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/iPhone-6-Nee-Yendral.mp3",
+    "audio_url": "/music/iPhone-6-Nee-Yendral.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "59",
-    "name": "Iraivaa",
+    "name": "Iraivaa   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja, Leon James - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Iraivaa.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Iraivaa.mp3",
+    "audio_url": "/music/Iraivaa.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "60",
-    "name": "Iruthiyai Nee",
+    "name": "Iruthiyai Nee   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja, Chinmayi Sripada - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Iruthiyai%20Nee.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Iruthiyai%20Nee.mp3",
+    "audio_url": "/music/Iruthiyai%20Nee.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "61",
-    "name": "Jammie On The Scene",
+    "name": "Jammie On The Scene   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Jammie%20On%20The%20Scene.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Jammie%20On%20The%20Scene.mp3",
+    "audio_url": "/music/Jammie%20On%20The%20Scene.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "62",
-    "name": "Jammie's Revenge",
+    "name": "Jammie's Revenge   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Jammie's%20Revenge.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Jammie's%20Revenge.mp3",
+    "audio_url": "/music/Jammie's%20Revenge.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "63",
-    "name": "January-Madham",
+    "name": "January Madham   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Madhangi & Kunal - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/January-Madham.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/January-Madham.mp3",
+    "audio_url": "/music/January-Madham.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "64",
-    "name": "Jigar",
+    "name": "Jigar   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Pradeep Kumar - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Jigar.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Jigar.mp3",
+    "audio_url": "/music/Jigar.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "65",
-    "name": "Jo Jo",
+    "name": "Jo Jo   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Meenakshi Elayaraja - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Jo%20Jo.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Jo%20Jo.mp3",
+    "audio_url": "/music/Jo%20Jo.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "66",
-    "name": "Kaakha-Kaakha",
+    "name": "Kaakha Kaakha   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vijay Antony, Charulatha Mani, Maya, Megha & Vinaya - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kaakha-Kaakha.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kaakha-Kaakha.mp3",
+    "audio_url": "/music/Kaakha-Kaakha.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "67",
-    "name": "Kadhal-Sadugudu",
+    "name": "Kadhal Sadugudu   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "S.P.B. Charan & Naveen - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kadhal-Sadugudu.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kadhal-Sadugudu.mp3",
+    "audio_url": "/music/Kadhal-Sadugudu.mp3",
     "language": "tamil",
-    "vibe": "energetic"
+    "vibe": "romantic"
   },
   {
     "id": "68",
-    "name": "Kadhalaada-(Reprise)-MassTamilan.com",
+    "name": "Kadhalaada (Reprise)   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Shasha Tirupati, Namratha, Pooja - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kadhalaada-(Reprise)-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kadhalaada-(Reprise)-MassTamilan.com.mp3",
+    "audio_url": "/music/Kadhalaada-(Reprise)-MassTamilan.com.mp3",
     "language": "tamil",
-    "vibe": "energetic"
+    "vibe": "romantic"
   },
   {
     "id": "69",
-    "name": "Kadhalaada-Kadhal-Aada-MassTamilan.com",
+    "name": "Kadhalaada Kadhal Aada   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Pradeep Kumar, Shasha Tirupati - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kadhalaada-Kadhal-Aada-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kadhalaada-Kadhal-Aada-MassTamilan.com.mp3",
+    "audio_url": "/music/Kadhalaada-Kadhal-Aada-MassTamilan.com.mp3",
     "language": "tamil",
-    "vibe": "energetic"
+    "vibe": "romantic"
   },
   {
     "id": "70",
-    "name": "Kadhale-Kadhale",
+    "name": "Kadhale Kadhale   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Shankar Mahadevan, Padmalatha - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kadhale-Kadhale.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kadhale-Kadhale.mp3",
+    "audio_url": "/music/Kadhale-Kadhale.mp3",
     "language": "tamil",
-    "vibe": "energetic"
+    "vibe": "romantic"
   },
   {
     "id": "71",
-    "name": "Kaiya-Pudicha-Thaarumaaru-MassTamilan.com",
+    "name": "Kaiya Pudicha Thaarumaaru   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Sanjith Hegde, Sniggy, Hiphop Tamizha - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kaiya-Pudicha-Thaarumaaru-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kaiya-Pudicha-Thaarumaaru-MassTamilan.com.mp3",
+    "audio_url": "/music/Kaiya-Pudicha-Thaarumaaru-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "72",
-    "name": "Kalaarasiga",
+    "name": "Kalaarasiga   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Shweta Mohan, Sharanya Srinivas - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kalaarasiga.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kalaarasiga.mp3",
+    "audio_url": "/music/Kalaarasiga.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "73",
-    "name": "Kalyanamam-Kalyanam",
+    "name": "Kalyanamam Kalyanam   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Adony Dasan,Hema - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kalyanamam-Kalyanam.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kalyanamam-Kalyanam.mp3",
+    "audio_url": "/music/Kalyanamam-Kalyanam.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "74",
-    "name": "Kan-Irrandil",
+    "name": "Kan Irrandil   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Naresh Iyer - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kan-Irrandil.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kan-Irrandil.mp3",
+    "audio_url": "/music/Kan-Irrandil.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "75",
-    "name": "Kan-Peasum-Varthaigal",
+    "name": "Kan Peasum Varthaigal   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Karthik - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kan-Peasum-Varthaigal.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kan-Peasum-Varthaigal.mp3",
+    "audio_url": "/music/Kan-Peasum-Varthaigal.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "76",
-    "name": "Kanaa-Kaanum-Kaalangal-2",
+    "name": "Kanaa Kaanum Kaalangal   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Harish Raghavendra, Madhumitha & Ustad Sulthan Khan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kanaa-Kaanum-Kaalangal-2.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kanaa-Kaanum-Kaalangal-2.mp3",
+    "audio_url": "/music/Kanaa-Kaanum-Kaalangal-2.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "77",
-    "name": "Kanaa-Kaanum-Kaalangal",
+    "name": "Kanaa Kaanum Kaalangal   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Madhumitha & Ustad Sulthan Khan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kanaa-Kaanum-Kaalangal.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kanaa-Kaanum-Kaalangal.mp3",
+    "audio_url": "/music/Kanaa-Kaanum-Kaalangal.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "78",
-    "name": "Kanaave-Kanaave",
+    "name": "Kanaave Kanaave   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Madhushree, Vaishali, Chinmayi, Pooja, Sharanya Srinivasan, Aanchal Sethi - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kanaave-Kanaave.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kanaave-Kanaave.mp3",
+    "audio_url": "/music/Kanaave-Kanaave.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "79",
-    "name": "Kannamma",
+    "name": "Kannamma   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Rita, Antony Dasan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kannamma.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kannamma.mp3",
+    "audio_url": "/music/Kannamma.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "80",
-    "name": "Kannil Kodi",
+    "name": "Kannil Kodi   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja, Adithya RK - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kannil%20Kodi.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kannil%20Kodi.mp3",
+    "audio_url": "/music/Kannil%20Kodi.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "81",
-    "name": "Karakudi-Ilavarasi-En-Nenja-MassTamilan.com",
+    "name": "Karakudi Ilavarasi En Nenja   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Jassie Gift, Sudharshan Ashok - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Karakudi-Ilavarasi-En-Nenja-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Karakudi-Ilavarasi-En-Nenja-MassTamilan.com.mp3",
+    "audio_url": "/music/Karakudi-Ilavarasi-En-Nenja-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "82",
-    "name": "Kathal-Website-Ondru",
+    "name": "Kathal Website Ondru   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Shankar Mahadevan, Harini, Timmy & Yuvan Shankar Raja - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kathal-Website-Ondru.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kathal-Website-Ondru.mp3",
+    "audio_url": "/music/Kathal-Website-Ondru.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "83",
-    "name": "Kodayila",
+    "name": "Kodayila   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vaikom Vijayalakshmi,Kalyani Nair,Pradeep Kumar - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kodayila.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kodayila.mp3",
+    "audio_url": "/music/Kodayila.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "84",
-    "name": "Kodi-Parakkudha",
+    "name": "Kodi Parakkudha   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Dhanush, Arunraja Kamaraj - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kodi-Parakkudha.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kodi-Parakkudha.mp3",
+    "audio_url": "/music/Kodi-Parakkudha.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "85",
-    "name": "Kokki",
+    "name": "Kokki   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Sooraj Santhosh - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kokki.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kokki.mp3",
+    "audio_url": "/music/Kokki.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "86",
-    "name": "Kombu Vacha",
+    "name": "Kombu Vacha   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja, Anthony Daasan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kombu%20Vacha.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kombu%20Vacha.mp3",
+    "audio_url": "/music/Kombu%20Vacha.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "87",
-    "name": "Kutti-Story-MassTamilan.io",
+    "name": "Kutti Story   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Vijay, Anirudh Ravichander - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Kutti-Story-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Kutti-Story-MassTamilan.io.mp3",
+    "audio_url": "/music/Kutti-Story-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "88",
-    "name": "Lights-Camera-Action-MassTamilan.io",
+    "name": "Lights Camera Action   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Kaushik Krish, Rajan Chelliah, Hiphop Tamizha & Paul B Sailus - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Lights-Camera-Action-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Lights-Camera-Action-MassTamilan.io.mp3",
+    "audio_url": "/music/Lights-Camera-Action-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "89",
-    "name": "Maanja",
+    "name": "Maanja   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anirudh - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Maanja.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Maanja.mp3",
+    "audio_url": "/music/Maanja.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "90",
-    "name": "Maari Thara Local (Here Comes Maari)",
+    "name": "Maari Thara Local (Here Comes Maari)   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Dhanush - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Maari%20Thara%20Local%20(Here%20Comes%20Maari).mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Maari%20Thara%20Local%20(Here%20Comes%20Maari).mp3",
+    "audio_url": "/music/Maari%20Thara%20Local%20(Here%20Comes%20Maari).mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "91",
-    "name": "Maatikkinaaru Orutharu",
+    "name": "Maatikkinaaru Orutharu   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Leon James, Gana Apellow - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Maatikkinaaru%20Orutharu.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Maatikkinaaru%20Orutharu.mp3",
+    "audio_url": "/music/Maatikkinaaru%20Orutharu.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "92",
-    "name": "Macha-Kanni",
+    "name": "Macha Kanni   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vijay Antony, Jaya Rajagopal & Sathya Lakshmi - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Macha-Kanni.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Macha-Kanni.mp3",
+    "audio_url": "/music/Macha-Kanni.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "93",
-    "name": "Madras-To-Madurai-MassTamilan.fm",
+    "name": "Madras To Madurai   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Kailash Kher, Vishnu Priya, Maria 'Roe' Roshni Vincent, Hiphop Tamizha - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Madras-To-Madurai-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Madras-To-Madurai-MassTamilan.fm.mp3",
+    "audio_url": "/music/Madras-To-Madurai-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "94",
-    "name": "Maname Maname",
+    "name": "Maname Maname   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Leon James, Pradeep Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Maname%20Maname.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Maname%20Maname.mp3",
+    "audio_url": "/music/Maname%20Maname.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "95",
-    "name": "Manasilaayo",
+    "name": "Manasilaayo   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Malaysia Vasudevan, Deepthi Suresh, Yugendran Vasudevan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Manasilaayo.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Manasilaayo.mp3",
+    "audio_url": "/music/Manasilaayo.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "96",
-    "name": "Manasula-Soora",
+    "name": "Manasula Soora   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "RR,Divya Ramani - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Manasula-Soora.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Manasula-Soora.mp3",
+    "audio_url": "/music/Manasula-Soora.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "97",
-    "name": "Mangalyam-Tantunanena",
+    "name": "Mangalyam Tantunanena   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Clinton Cerejo, Srinivas & A.R.Rahman - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Mangalyam-Tantunanena.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Mangalyam-Tantunanena.mp3",
+    "audio_url": "/music/Mangalyam-Tantunanena.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "98",
-    "name": "Manichiru",
+    "name": "Manichiru   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan, Punya Selva, The Indian Choral Ensemble - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Manichiru.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Manichiru.mp3",
+    "audio_url": "/music/Manichiru.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "99",
-    "name": "Master-the-Blaster-MassTamilan.io",
+    "name": "Master the Blaster   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Bjorn Surrao - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Master-the-Blaster-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Master-the-Blaster-MassTamilan.io.mp3",
+    "audio_url": "/music/Master-the-Blaster-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "100",
-    "name": "Maula-Maula-MassTamilan.io",
+    "name": "Maula Maula   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Bamba Bakya, Kutle Khan & Nikhita Gandhi - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Maula-Maula-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Maula-Maula-MassTamilan.io.mp3",
+    "audio_url": "/music/Maula-Maula-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "101",
-    "name": "Mobsta",
+    "name": "Mobsta   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Mobsta.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Mobsta.mp3",
+    "audio_url": "/music/Mobsta.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "102",
-    "name": "Monica",
+    "name": "Monica   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Sublahshini, Asal Kolaar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Monica.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Monica.mp3",
+    "audio_url": "/music/Monica.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "103",
-    "name": "Music-of-Joy",
+    "name": "Music of Joy   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Music-of-Joy.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Music-of-Joy.mp3",
+    "audio_url": "/music/Music-of-Joy.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "104",
-    "name": "My-Dear-Loveru-MassTamilan.com",
+    "name": "My Dear Loveru   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vishal - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/My-Dear-Loveru-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/My-Dear-Loveru-MassTamilan.com.mp3",
+    "audio_url": "/music/My-Dear-Loveru-MassTamilan.com.mp3",
     "language": "tamil",
-    "vibe": "energetic"
+    "vibe": "romantic"
   },
   {
     "id": "105",
-    "name": "Naam-Vayathukku",
+    "name": "Naam Vayathukku   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Unnikrishnan, Yuvan Shankar Raja, Shalini & Ganga - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Naam-Vayathukku.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Naam-Vayathukku.mp3",
+    "audio_url": "/music/Naam-Vayathukku.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "106",
-    "name": "Naan Unnai Parthen",
+    "name": "Naan Unnai Parthen   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Mukesh - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Naan%20Unnai%20Parthen.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Naan%20Unnai%20Parthen.mp3",
+    "audio_url": "/music/Naan%20Unnai%20Parthen.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "107",
-    "name": "Naane-Than-Raja",
+    "name": "Naane Than Raja   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anthony Dasan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Naane-Than-Raja.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Naane-Than-Raja.mp3",
+    "audio_url": "/music/Naane-Than-Raja.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "108",
-    "name": "Nallaru-Po-MassTamilan.dev",
+    "name": "Nallaru Po   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "Sai Abhyankkar, Tippu, Mohit Chauhan - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Nallaru-Po-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Nallaru-Po-MassTamilan.dev.mp3",
+    "audio_url": "/music/Nallaru-Po-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "109",
-    "name": "Nee-Dhaana-Nee-Dhaana-MassTamilan.com",
+    "name": "Nee Dhaana Nee Dhaana   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vijay Antony - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Nee-Dhaana-Nee-Dhaana-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Nee-Dhaana-Nee-Dhaana-MassTamilan.com.mp3",
+    "audio_url": "/music/Nee-Dhaana-Nee-Dhaana-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "110",
-    "name": "Nee-Illai-Enral",
+    "name": "Nee Illai Enral   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Bhavatharini, Murugan M.Iyer - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Nee-Illai-Enral.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Nee-Illai-Enral.mp3",
+    "audio_url": "/music/Nee-Illai-Enral.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "111",
-    "name": "Nee-Kavidhai",
+    "name": "Nee Kavidhai   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Krish & Megha - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Nee-Kavidhai.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Nee-Kavidhai.mp3",
+    "audio_url": "/music/Nee-Kavidhai.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "112",
-    "name": "Nee-Sirichalum-MassTamilan.io",
+    "name": "Nee Sirichalum   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Sadhana Sargam, Jonita Gandhi & Srinisha - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Nee-Sirichalum-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Nee-Sirichalum-MassTamilan.io.mp3",
+    "audio_url": "/music/Nee-Sirichalum-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "113",
-    "name": "Nenjame-MassTamilan.fm",
+    "name": "Nenjame   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Nenjame-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Nenjame-MassTamilan.fm.mp3",
+    "audio_url": "/music/Nenjame-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "114",
-    "name": "Never-Give-Up-MassTamilan.com",
+    "name": "Never Give Up   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Raja Kumari - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Never-Give-Up-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Never-Give-Up-MassTamilan.com.mp3",
+    "audio_url": "/music/Never-Give-Up-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "115",
-    "name": "Ninaithu-Ninaithu-Parthal",
+    "name": "Ninaithu Ninaithu Parthal   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Shreya Goshal - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ninaithu-Ninaithu-Parthal.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ninaithu-Ninaithu-Parthal.mp3",
+    "audio_url": "/music/Ninaithu-Ninaithu-Parthal.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "116",
-    "name": "Ninaithu-Ninaithu-Parthen-II",
+    "name": "Ninaithu Ninaithu Parthen II   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "K.K - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ninaithu-Ninaithu-Parthen-II.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ninaithu-Ninaithu-Parthen-II.mp3",
+    "audio_url": "/music/Ninaithu-Ninaithu-Parthen-II.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "117",
-    "name": "Oliyaaga-Vandhaai",
+    "name": "Oliyaaga Vandhaai   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Javed Ali, KMMC Sufi Ensemble - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Oliyaaga-Vandhaai.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Oliyaaga-Vandhaai.mp3",
+    "audio_url": "/music/Oliyaaga-Vandhaai.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "118",
-    "name": "Once-Upon-a-Time-MassTamilan.so",
+    "name": "Once Upon a Time   MassTamilan.so",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan.so"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Once-Upon-a-Time-MassTamilan.so.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Once-Upon-a-Time-MassTamilan.so.mp3",
+    "audio_url": "/music/Once-Upon-a-Time-MassTamilan.so.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "119",
-    "name": "Oorum-Blood-MassTamilan.dev",
+    "name": "Oorum Blood   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "Sai Abhyankkar, Bebhumika, Deepthi Suresh - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Oorum-Blood-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Oorum-Blood-MassTamilan.dev.mp3",
+    "audio_url": "/music/Oorum-Blood-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "120",
-    "name": "Open-The-Tasmac",
+    "name": "Open The Tasmac   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Deva, Anirudh - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Open-The-Tasmac.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Open-The-Tasmac.mp3",
+    "audio_url": "/music/Open-The-Tasmac.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "121",
-    "name": "Oru Vidha Aasai (The Temptation of Maari)",
+    "name": "Oru Vidha Aasai (The Temptation of Maari)   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Vineeth Sreenivasan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Oru%20Vidha%20Aasai%20(The%20Temptation%20of%20Maari).mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Oru%20Vidha%20Aasai%20(The%20Temptation%20of%20Maari).mp3",
+    "audio_url": "/music/Oru%20Vidha%20Aasai%20(The%20Temptation%20of%20Maari).mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "122",
-    "name": "Oru-Kuchi-Oru-Kulfi-MassTamilan.com",
+    "name": "Oru Kuchi Oru Kulfi   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Gana Vinoth, Saravedi Saran - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Oru-Kuchi-Oru-Kulfi-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Oru-Kuchi-Oru-Kulfi-MassTamilan.com.mp3",
+    "audio_url": "/music/Oru-Kuchi-Oru-Kulfi-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "123",
-    "name": "Oru-Kutti-Katha-MassTamilan.io",
+    "name": "Oru Kutti Katha   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Vijay - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Oru-Kutti-Katha-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Oru-Kutti-Katha-MassTamilan.io.mp3",
+    "audio_url": "/music/Oru-Kutti-Katha-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "124",
-    "name": "Othapada Veriyattam",
+    "name": "Othapada Veriyattam   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja, Sam, Velu, Aravind, Shenbagaraj Ganesalingam - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Othapada%20Veriyattam.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Othapada%20Veriyattam.mp3",
+    "audio_url": "/music/Othapada%20Veriyattam.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "125",
-    "name": "Ottam",
+    "name": "Ottam   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ottam.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ottam.mp3",
+    "audio_url": "/music/Ottam.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "126",
-    "name": "Oyile Oyile",
+    "name": "Oyile Oyile   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Kaushik Krish, Snigdha Chandra - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Oyile%20Oyile.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Oyile%20Oyile.mp3",
+    "audio_url": "/music/Oyile%20Oyile.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "127",
-    "name": "Paarkaadhey-Oru-Madhiri",
+    "name": "Paarkaadhey Oru Madhiri   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "A.R. Rahman, Vocals : Karthik - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Paarkaadhey-Oru-Madhiri.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Paarkaadhey-Oru-Madhiri.mp3",
+    "audio_url": "/music/Paarkaadhey-Oru-Madhiri.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "128",
-    "name": "Pachchai-Nirame",
+    "name": "Pachchai Nirame   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Hariharan & Clinton - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pachchai-Nirame.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pachchai-Nirame.mp3",
+    "audio_url": "/music/Pachchai-Nirame.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "129",
-    "name": "Pandi-Nattu-Kodi",
+    "name": "Pandi Nattu Kodi   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Antony Dasan, Karuvayan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pandi-Nattu-Kodi.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pandi-Nattu-Kodi.mp3",
+    "audio_url": "/music/Pandi-Nattu-Kodi.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "130",
-    "name": "Panjavarna Kiliye",
+    "name": "Panjavarna Kiliye   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Panjavarna%20Kiliye.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Panjavarna%20Kiliye.mp3",
+    "audio_url": "/music/Panjavarna%20Kiliye.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "131",
-    "name": "Papara-Mitta-MassTamilan.dev",
+    "name": "Papara Mitta   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Vaisagh - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Papara-Mitta-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Papara-Mitta-MassTamilan.dev.mp3",
+    "audio_url": "/music/Papara-Mitta-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "132",
-    "name": "Parakka-Seivaai",
+    "name": "Parakka Seivaai   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Karthik, Mili Nair - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Parakka-Seivaai.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Parakka-Seivaai.mp3",
+    "audio_url": "/music/Parakka-Seivaai.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "133",
-    "name": "Pathala-Pathala-MassTamilan.so",
+    "name": "Pathala Pathala   MassTamilan.so",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Kamal Haasan - MassTamilan.so"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pathala-Pathala-MassTamilan.so.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pathala-Pathala-MassTamilan.so.mp3",
+    "audio_url": "/music/Pathala-Pathala-MassTamilan.so.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "134",
-    "name": "Pathikichu",
+    "name": "Pathikichu   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Yogi Sekar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pathikichu.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pathikichu.mp3",
+    "audio_url": "/music/Pathikichu.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "135",
-    "name": "Paththavaikkum",
+    "name": "Paththavaikkum   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Deepthi Suresh, Vignesh Shivan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Paththavaikkum.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Paththavaikkum.mp3",
+    "audio_url": "/music/Paththavaikkum.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "136",
-    "name": "Pazhagikalam-MassTamilan.fm",
+    "name": "Pazhagikalam   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pazhagikalam-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pazhagikalam-MassTamilan.fm.mp3",
+    "audio_url": "/music/Pazhagikalam-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "137",
-    "name": "Perarasi",
+    "name": "Perarasi   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan, Aditya Ravindran - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Perarasi.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Perarasi.mp3",
+    "audio_url": "/music/Perarasi.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "138",
-    "name": "Perseverance Theme",
+    "name": "Perseverance Theme   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Perseverance%20Theme.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Perseverance%20Theme.mp3",
+    "audio_url": "/music/Perseverance%20Theme.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "139",
-    "name": "Pirivu",
+    "name": "Pirivu   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan, The Indian Choral Ensemble - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pirivu.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pirivu.mp3",
+    "audio_url": "/music/Pirivu.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "140",
-    "name": "Polakatum-Para-Para-MassTamilan.io",
+    "name": "Polakatum Para Para   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Polakatum-Para-Para-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Polakatum-Para-Para-MassTamilan.io.mp3",
+    "audio_url": "/music/Polakatum-Para-Para-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "141",
-    "name": "Pona-Pogattum-MassTamilan.io",
+    "name": "Pona Pogattum   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "CB Vinith, Inno Genga - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pona-Pogattum-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pona-Pogattum-MassTamilan.io.mp3",
+    "audio_url": "/music/Pona-Pogattum-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "142",
-    "name": "Porkanda-Singam-MassTamilan.so",
+    "name": "Porkanda Singam   MassTamilan.so",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Ravi G - MassTamilan.so"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Porkanda-Singam-MassTamilan.so.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Porkanda-Singam-MassTamilan.so.mp3",
+    "audio_url": "/music/Porkanda-Singam-MassTamilan.so.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "143",
-    "name": "Potta-Pulla",
+    "name": "Potta Pulla   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "RR - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Potta-Pulla.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Potta-Pulla.mp3",
+    "audio_url": "/music/Potta-Pulla.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "144",
-    "name": "Pottala Muttaye",
+    "name": "Pottala Muttaye   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan, Sublahshini - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pottala%20Muttaye.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pottala%20Muttaye.mp3",
+    "audio_url": "/music/Pottala%20Muttaye.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "145",
-    "name": "Powerhouse",
+    "name": "Powerhouse   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Arivu - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Powerhouse.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Powerhouse.mp3",
+    "audio_url": "/music/Powerhouse.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "146",
-    "name": "Prank In The Bank",
+    "name": "Prank In The Bank   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Prank%20In%20The%20Bank.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Prank%20In%20The%20Bank.mp3",
+    "audio_url": "/music/Prank%20In%20The%20Bank.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "147",
-    "name": "Pre-Jail Fight",
+    "name": "Pre Jail Fight   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pre-Jail%20Fight.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pre-Jail%20Fight.mp3",
+    "audio_url": "/music/Pre-Jail%20Fight.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "148",
-    "name": "Pudichiruka-Illa-Pudikalaya-MassTamilan.com",
+    "name": "Pudichiruka Illa Pudikalaya   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Varun Parandhaman, Rajan Chelliah - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Pudichiruka-Illa-Pudikalaya-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Pudichiruka-Illa-Pudikalaya-MassTamilan.com.mp3",
+    "audio_url": "/music/Pudichiruka-Illa-Pudikalaya-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "149",
-    "name": "Quit-Pannuda-MassTamilan.io",
+    "name": "Quit Pannuda   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Quit-Pannuda-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Quit-Pannuda-MassTamilan.io.mp3",
+    "audio_url": "/music/Quit-Pannuda-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "150",
-    "name": "Radha-Kadhal",
+    "name": "Radha Kadhal   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "R. Prasanna, Maya, Sangeetha Rajeshwaran & Vinaya - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Radha-Kadhal.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Radha-Kadhal.mp3",
+    "audio_url": "/music/Radha-Kadhal.mp3",
     "language": "tamil",
-    "vibe": "energetic"
+    "vibe": "romantic"
   },
   {
     "id": "151",
-    "name": "Rise Of Dragon",
+    "name": "Rise Of Dragon   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Leon James, Anirudh Ravichander, Nadisha Thomas, El Fé Choir - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Rise%20Of%20Dragon.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Rise%20Of%20Dragon.mp3",
+    "audio_url": "/music/Rise%20Of%20Dragon.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "152",
-    "name": "Royapuram-Peter",
+    "name": "Royapuram Peter   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Siva Karthikeyan, Paravai Muniyamma - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Royapuram-Peter.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Royapuram-Peter.mp3",
+    "audio_url": "/music/Royapuram-Peter.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "153",
-    "name": "Sattru-Mun-Varai-MassTamilan.com",
+    "name": "Sattru Mun Varai   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Hariharan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Sattru-Mun-Varai-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Sattru-Mun-Varai-MassTamilan.com.mp3",
+    "audio_url": "/music/Sattru-Mun-Varai-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "154",
-    "name": "Sawadeeka",
+    "name": "Sawadeeka   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Anthony Daasan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Sawadeeka.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Sawadeeka.mp3",
+    "audio_url": "/music/Sawadeeka.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "155",
-    "name": "Sella Kolarey",
+    "name": "Sella Kolarey   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Santhosh Narayanan, Kuruji - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Sella%20Kolarey.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Sella%20Kolarey.mp3",
+    "audio_url": "/music/Sella%20Kolarey.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "156",
-    "name": "September-Madham",
+    "name": "September Madham   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Asha Bhosle & Shankar Mahadevan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/September-Madham.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/September-Madham.mp3",
+    "audio_url": "/music/September-Madham.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "157",
-    "name": "Sirukki-Vaasam",
+    "name": "Sirukki Vaasam   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anand Aravindakshan, Swetha Mohan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Sirukki-Vaasam.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Sirukki-Vaasam.mp3",
+    "audio_url": "/music/Sirukki-Vaasam.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "158",
-    "name": "Snehidhane",
+    "name": "Snehidhane   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Sadhana Sargam & Srinivas - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Snehidhane.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Snehidhane.mp3",
+    "audio_url": "/music/Snehidhane.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "159",
-    "name": "So-Baby-MassTamilan.fm",
+    "name": "So Baby   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander,Ananthakrrishnan - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/So-Baby-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/So-Baby-MassTamilan.fm.mp3",
+    "audio_url": "/music/So-Baby-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "160",
-    "name": "Sollamal-Thottu-Chellum-Thendral",
+    "name": "Sollamal Thottu Chellum Thendral   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Hariharan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Sollamal-Thottu-Chellum-Thendral.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Sollamal-Thottu-Chellum-Thendral.mp3",
+    "audio_url": "/music/Sollamal-Thottu-Chellum-Thendral.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "161",
-    "name": "Solvadhai-Seidhu-Mudippom",
+    "name": "Solvadhai Seidhu Mudippom   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "A.R.Rahman, Mohammed Rafi - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Solvadhai-Seidhu-Mudippom.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Solvadhai-Seidhu-Mudippom.mp3",
+    "audio_url": "/music/Solvadhai-Seidhu-Mudippom.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "162",
-    "name": "Son On The Court's Dock",
+    "name": "Son On The Court's Dock   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Son%20On%20The%20Court's%20Dock.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Son%20On%20The%20Court's%20Dock.mp3",
+    "audio_url": "/music/Son%20On%20The%20Court's%20Dock.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "163",
-    "name": "Soul-of-Doctor-(Theme)-MassTamilan.fm",
+    "name": "Soul of Doctor (Theme)   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander,Niranjana Ramanan - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Soul-of-Doctor-(Theme)-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Soul-of-Doctor-(Theme)-MassTamilan.fm.mp3",
+    "audio_url": "/music/Soul-of-Doctor-(Theme)-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "164",
-    "name": "Surviva-MassTamilan.com",
+    "name": "Surviva   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Yogi B, Mali Manoj - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Surviva-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Surviva-MassTamilan.com.mp3",
+    "audio_url": "/music/Surviva-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "165",
-    "name": "Thalai-Viduthalai-MassTamilan.com",
+    "name": "Thalai Viduthalai   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Harish Swaminathan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Thalai-Viduthalai-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Thalai-Viduthalai-MassTamilan.com.mp3",
+    "audio_url": "/music/Thalai-Viduthalai-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "166",
-    "name": "Thanda",
+    "name": "Thanda   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Instrumental - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Thanda.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Thanda.mp3",
+    "audio_url": "/music/Thanda.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "167",
-    "name": "Thaniye",
+    "name": "Thaniye   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Thaniye.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Thaniye.mp3",
+    "audio_url": "/music/Thaniye.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "168",
-    "name": "Thappa Dhaan Theriyum (Maari's Karuthu)",
+    "name": "Thappa Dhaan Theriyum (Maari's Karuthu)   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Dhanush, Chinna Ponnu, Magizhini Manimaaran - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Thappa%20Dhaan%20Theriyum%20(Maari's%20Karuthu).mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Thappa%20Dhaan%20Theriyum%20(Maari's%20Karuthu).mp3",
+    "audio_url": "/music/Thappa%20Dhaan%20Theriyum%20(Maari's%20Karuthu).mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "169",
-    "name": "Tharangini-MassTamilan.dev",
+    "name": "Tharangini   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "A.R. Rahman, Sarthak Kalyani - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Tharangini-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Tharangini-MassTamilan.dev.mp3",
+    "audio_url": "/music/Tharangini-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "170",
-    "name": "The Maari Swag",
+    "name": "The Maari Swag   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/The%20Maari%20Swag.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/The%20Maari%20Swag.mp3",
+    "audio_url": "/music/The%20Maari%20Swag.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "171",
-    "name": "The Red Dragon",
+    "name": "The Red Dragon   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "G. V. Prakash Kumar - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/The%20Red%20Dragon.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/The%20Red%20Dragon.mp3",
+    "audio_url": "/music/The%20Red%20Dragon.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "172",
-    "name": "The-Conquest-of-Time",
+    "name": "The Conquest of Time   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Hip Hop Thamizha - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/The-Conquest-of-Time.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/The-Conquest-of-Time.mp3",
+    "audio_url": "/music/The-Conquest-of-Time.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "173",
-    "name": "The-Land-Of-Shiva",
+    "name": "The Land Of Shiva   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Instrumental - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/The-Land-Of-Shiva.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/The-Land-Of-Shiva.mp3",
+    "audio_url": "/music/The-Land-Of-Shiva.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "174",
-    "name": "Then-Kudicha",
+    "name": "Then Kudicha   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Naresh Iyer & Deepa Miriam - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Then-Kudicha.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Then-Kudicha.mp3",
+    "audio_url": "/music/Then-Kudicha.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "175",
-    "name": "Thooral-Podum",
+    "name": "Thooral Podum   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Ajeesh, Janaki Iyer - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Thooral-Podum.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Thooral-Podum.mp3",
+    "audio_url": "/music/Thooral-Podum.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "176",
-    "name": "Thumbakki-Thummbai-MassTamilan.com",
+    "name": "Thumbakki Thummbai   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vijay Antony - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Thumbakki-Thummbai-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Thumbakki-Thummbai-MassTamilan.com.mp3",
+    "audio_url": "/music/Thumbakki-Thummbai-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "177",
-    "name": "Thumbi-Thullal-MassTamilan.dev",
+    "name": "Thumbi Thullal   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "A.R. Rahman, Nakul Abhyankar, Shreya Ghoshal - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Thumbi-Thullal-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Thumbi-Thullal-MassTamilan.dev.mp3",
+    "audio_url": "/music/Thumbi-Thullal-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "178",
-    "name": "Thunder-Kaaran-MassTamilan.dev",
+    "name": "Thunder Kaaran   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Anirudh Ravichander - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Thunder-Kaaran-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Thunder-Kaaran-MassTamilan.dev.mp3",
+    "audio_url": "/music/Thunder-Kaaran-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "179",
-    "name": "Uchathila",
+    "name": "Uchathila   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Sean Roldan - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Uchathila.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Uchathila.mp3",
+    "audio_url": "/music/Uchathila.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "180",
-    "name": "Ulagam-Unakku",
+    "name": "Ulagam Unakku   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vijay Prakash - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ulagam-Unakku.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ulagam-Unakku.mp3",
+    "audio_url": "/music/Ulagam-Unakku.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "181",
-    "name": "Un-Vizhigalil",
+    "name": "Un Vizhigalil   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Anirudh, Shruti Haasan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Un-Vizhigalil.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Un-Vizhigalil.mp3",
+    "audio_url": "/music/Un-Vizhigalil.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "182",
-    "name": "Unnaal-Unnaal",
+    "name": "Unnaal Unnaal   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Hariharan, Haricharan, Pooja - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Unnaal-Unnaal.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Unnaal-Unnaal.mp3",
+    "audio_url": "/music/Unnaal-Unnaal.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "183",
-    "name": "Ussumu-Laresay",
+    "name": "Ussumu Laresay   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Vijay Antony, Emcee Jesz, Janaki Iyer - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Ussumu-Laresay.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Ussumu-Laresay.mp3",
+    "audio_url": "/music/Ussumu-Laresay.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "184",
-    "name": "Uyir-Urugudhey-MassTamilan.dev",
+    "name": "Uyir Urugudhey   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "A.R. Rahman - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Uyir-Urugudhey-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Uyir-Urugudhey-MassTamilan.dev.mp3",
+    "audio_url": "/music/Uyir-Urugudhey-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "185",
-    "name": "Uyirnaadi Nanbane",
+    "name": "Uyirnaadi Nanbane   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander, Sai Smriti - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Uyirnaadi%20Nanbane.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Uyirnaadi%20Nanbane.mp3",
+    "audio_url": "/music/Uyirnaadi%20Nanbane.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "186",
-    "name": "Va-Va-Va-Vannila-MassTamilan.fm",
+    "name": "Va Va Va Vannila   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Mohit Chauhan, Amrita Shekar, Nrithya Maria Andrews, Hiphop Tamizha - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Va-Va-Va-Vannila-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Va-Va-Va-Vannila-MassTamilan.fm.mp3",
+    "audio_url": "/music/Va-Va-Va-Vannila-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "187",
-    "name": "Vaathi-Coming-MassTamilan.io",
+    "name": "Vaathi Coming   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Gana Balachandar, Anirudh Ravichander - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vaathi-Coming-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vaathi-Coming-MassTamilan.io.mp3",
+    "audio_url": "/music/Vaathi-Coming-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "188",
-    "name": "Vaathi-Kabaddi-MassTamilan.io",
+    "name": "Vaathi Kabaddi   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Maran, Jayamoorthy - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vaathi-Kabaddi-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vaathi-Kabaddi-MassTamilan.io.mp3",
+    "audio_url": "/music/Vaathi-Kabaddi-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "189",
-    "name": "Vaathi-Raid-MassTamilan.io",
+    "name": "Vaathi Raid   MassTamilan.io",
     "artists": [
-      "Unknown Artist"
+      "Arivu, Anirudh Ravichander, Rahul Sipligunj - MassTamilan.io"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vaathi-Raid-MassTamilan.io.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vaathi-Raid-MassTamilan.io.mp3",
+    "audio_url": "/music/Vaathi-Raid-MassTamilan.io.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "190",
-    "name": "Vaazh Veesum",
+    "name": "Vaazh Veesum   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vaazh%20Veesum.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vaazh%20Veesum.mp3",
+    "audio_url": "/music/Vaazh%20Veesum.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "191",
-    "name": "Vathikuchi-Pathikadhuda",
+    "name": "Vathikuchi Pathikadhuda   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "S. P. Balasubramaniam - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vathikuchi-Pathikadhuda.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vathikuchi-Pathikadhuda.mp3",
+    "audio_url": "/music/Vathikuchi-Pathikadhuda.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "192",
-    "name": "Vazhithunaiye",
+    "name": "Vazhithunaiye   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Leon James, Sid Sriram, Sanjana Kalmanje - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vazhithunaiye.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vazhithunaiye.mp3",
+    "audio_url": "/music/Vazhithunaiye.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "193",
-    "name": "Veeran-Thiruvizha-MassTamilan.dev",
+    "name": "Veeran Thiruvizha   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "Hiphop Tamizha, Muthu Sirpi, Chinna Ponnu, Pranavam Sasi - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Veeran-Thiruvizha-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Veeran-Thiruvizha-MassTamilan.dev.mp3",
+    "audio_url": "/music/Veeran-Thiruvizha-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "194",
-    "name": "Veriyera-Vidhimara-MassTamilan.com",
+    "name": "Veriyera Vidhimara   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "M. M. Manasi, Poorvi Koutish - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Veriyera-Vidhimara-MassTamilan.com.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Veriyera-Vidhimara-MassTamilan.com.mp3",
+    "audio_url": "/music/Veriyera-Vidhimara-MassTamilan.com.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "195",
-    "name": "Vettaiyan Theme",
+    "name": "Vettaiyan Theme   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vettaiyan%20Theme.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vettaiyan%20Theme.mp3",
+    "audio_url": "/music/Vettaiyan%20Theme.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "196",
-    "name": "Vettu-Pottu",
+    "name": "Vettu Pottu   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Shankar Mahadevan - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vettu-Pottu.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vettu-Pottu.mp3",
+    "audio_url": "/music/Vettu-Pottu.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "197",
-    "name": "Vikram-Title-Track-MassTamilan.so",
+    "name": "Vikram Title Track   MassTamilan.so",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan.so"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Vikram-Title-Track-MassTamilan.so.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Vikram-Title-Track-MassTamilan.so.mp3",
+    "audio_url": "/music/Vikram-Title-Track-MassTamilan.so.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "198",
-    "name": "Walking-Through-The-Rainbow",
+    "name": "Walking Through The Rainbow   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Yuvan Shankar Raja - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Walking-Through-The-Rainbow.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Walking-Through-The-Rainbow.mp3",
+    "audio_url": "/music/Walking-Through-The-Rainbow.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "199",
-    "name": "Wasted-MassTamilan.so",
+    "name": "Wasted   MassTamilan.so",
     "artists": [
-      "Unknown Artist"
+      "Anirudh Ravichander - MassTamilan.so"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Wasted-MassTamilan.so.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Wasted-MassTamilan.so.mp3",
+    "audio_url": "/music/Wasted-MassTamilan.so.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "200",
-    "name": "Yaarenna-Sonnalum-MassTamilan.fm",
+    "name": "Yaarenna Sonnalum   MassTamilan.fm",
     "artists": [
-      "Unknown Artist"
+      "Kutle Khan, Anthony Daasan, Varun Parandhaman, Hiphop Tamizha - MassTamilan.fm"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Yaarenna-Sonnalum-MassTamilan.fm.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Yaarenna-Sonnalum-MassTamilan.fm.mp3",
+    "audio_url": "/music/Yaarenna-Sonnalum-MassTamilan.fm.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "201",
-    "name": "Yaro-Yarodi",
+    "name": "Yaro Yarodi   MassTamilan.com",
     "artists": [
-      "Unknown Artist"
+      "Mahalaxmi Iyer, Vaishali &  Richa Sharma - MassTamilan.com"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Yaro-Yarodi.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Yaro-Yarodi.mp3",
+    "audio_url": "/music/Yaro-Yarodi.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "202",
-    "name": "Yele-Ilanchingamey-MassTamilan.dev",
+    "name": "Yele Ilanchingamey   MassTamilan.dev",
     "artists": [
-      "Unknown Artist"
+      "A.R. Rahman, Rakshita Suresh - MassTamilan.dev"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Yele-Ilanchingamey-MassTamilan.dev.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Yele-Ilanchingamey-MassTamilan.dev.mp3",
+    "audio_url": "/music/Yele-Ilanchingamey-MassTamilan.dev.mp3",
     "language": "tamil",
     "vibe": "energetic"
   },
   {
     "id": "203",
-    "name": "Yendi Vittu Pona",
+    "name": "Yendi Vittu Pona   MassTamilan",
     "artists": [
-      "Unknown Artist"
+      "Leon James, Silambarasan Tr - MassTamilan"
     ],
     "album": {
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+          "url": "/api/songs/cover/Yendi%20Vittu%20Pona.mp3"
         }
       ]
     },
-    "audio_url": "http://localhost:5000/music/Yendi%20Vittu%20Pona.mp3",
+    "audio_url": "/music/Yendi%20Vittu%20Pona.mp3",
     "language": "tamil",
     "vibe": "energetic"
   }
