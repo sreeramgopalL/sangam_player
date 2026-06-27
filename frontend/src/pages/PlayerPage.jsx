@@ -66,6 +66,38 @@ const getLyricsForSong = (songName) => {
   ];
 };
 
+const cleanSongName = (name) => {
+  if (!name) return '';
+  return name.replace(/\s*(MassTamilan|MassTamilan\.com|MassTamilan\.dev|MassTamilan\.io|MassTamilan\.fm|MassTamilan\.org|MassTamilan\.in)\b/gi, '').trim();
+};
+
+const parseArtistsAndSingers = (artistsArray) => {
+  if (!artistsArray || artistsArray.length === 0) {
+    return { artist: 'Unknown Artist', singers: '' };
+  }
+  
+  let artistStr = artistsArray[0] || '';
+  
+  // Clean MassTamilan suffixes from artist string
+  artistStr = artistStr.replace(/\s*-\s*(MassTamilan|MassTamilan\.com|MassTamilan\.dev|MassTamilan\.io|MassTamilan\.fm|MassTamilan\.org|MassTamilan\.in)\b/gi, '').trim();
+  artistStr = artistStr.replace(/\s*(MassTamilan|MassTamilan\.com|MassTamilan\.dev|MassTamilan\.io|MassTamilan\.fm|MassTamilan\.org|MassTamilan\.in)\b/gi, '').trim();
+
+  const parts = artistStr.split(',').map(p => p.trim()).filter(Boolean);
+  
+  if (parts.length === 0) {
+    return { artist: 'Unknown Artist', singers: '' };
+  }
+  
+  const mainArtist = parts[0];
+  const singers = parts.slice(1).join(', ');
+  
+  return {
+    artist: mainArtist,
+    singers: singers
+  };
+};
+
+
 const PlayerPage = ({ 
   sharedPlaylist, 
   setCurrentSong, 
@@ -105,6 +137,8 @@ const PlayerPage = ({
   }, [sharedPlaylist, currentSong, navigate]);
 
   const activeLyrics = getLyricsForSong(currentSong?.name);
+  const cleanName = cleanSongName(currentSong?.name);
+  const { artist, singers } = parseArtistsAndSingers(currentSong?.artists);
 
   // Find active lyric line index based on current playback time
   const activeLyricIndex = activeLyrics.reduce((acc, curr, idx) => {
@@ -223,8 +257,13 @@ const PlayerPage = ({
             {/* Song Meta Info */}
             <div className="mt-8 flex justify-between items-center max-w-sm w-full mx-auto px-1">
               <div className="min-w-0 flex-1 pr-4">
-                <h2 className="text-2xl font-bold text-white tracking-wide truncate">{currentSong.name}</h2>
-                <p className="text-white/50 text-sm font-medium mt-1 truncate">{currentSong.artists?.join(', ')}</p>
+                <h2 className="text-2xl font-bold text-white tracking-wide truncate">{cleanName}</h2>
+                <p className="text-gold text-sm font-medium mt-1 truncate">{artist}</p>
+                {singers && (
+                  <p className="text-white/50 text-xs mt-0.5 truncate">
+                    Singers: <span className="text-white/70">{singers}</span>
+                  </p>
+                )}
               </div>
               <div className="flex items-center gap-3">
                 <button 

@@ -3,6 +3,37 @@ import { Play, Pause, SkipForward } from 'lucide-react';
 import { useGlitter } from '../hooks/useGlitter';
 import FullScreenPlayer from './FullScreenPlayer';
 
+const cleanSongName = (name) => {
+  if (!name) return '';
+  return name.replace(/\s*(MassTamilan|MassTamilan\.com|MassTamilan\.dev|MassTamilan\.io|MassTamilan\.fm|MassTamilan\.org|MassTamilan\.in)\b/gi, '').trim();
+};
+
+const parseArtistsAndSingers = (artistsArray) => {
+  if (!artistsArray || artistsArray.length === 0) {
+    return { artist: 'Unknown Artist', singers: '' };
+  }
+  
+  let artistStr = artistsArray[0] || '';
+  
+  // Clean MassTamilan suffixes from artist string
+  artistStr = artistStr.replace(/\s*-\s*(MassTamilan|MassTamilan\.com|MassTamilan\.dev|MassTamilan\.io|MassTamilan\.fm|MassTamilan\.org|MassTamilan\.in)\b/gi, '').trim();
+  artistStr = artistStr.replace(/\s*(MassTamilan|MassTamilan\.com|MassTamilan\.dev|MassTamilan\.io|MassTamilan\.fm|MassTamilan\.org|MassTamilan\.in)\b/gi, '').trim();
+
+  const parts = artistStr.split(',').map(p => p.trim()).filter(Boolean);
+  
+  if (parts.length === 0) {
+    return { artist: 'Unknown Artist', singers: '' };
+  }
+  
+  const mainArtist = parts[0];
+  const singers = parts.slice(1).join(', ');
+  
+  return {
+    artist: mainArtist,
+    singers: singers
+  };
+};
+
 const MusicPlayer = ({ 
   currentSong, 
   playlist, 
@@ -17,6 +48,10 @@ const MusicPlayer = ({
 }) => {
   const [showFullScreen, setShowFullScreen] = useState(false);
   const { triggerBurst } = useGlitter();
+
+  const cleanName = cleanSongName(currentSong?.name);
+  const { artist, singers } = parseArtistsAndSingers(currentSong?.artists);
+
 
   const togglePlay = (e) => {
     if (e) e.stopPropagation();
@@ -91,8 +126,10 @@ const MusicPlayer = ({
 
             {/* Song info */}
             <div className="flex-1 min-w-0">
-              <p className="text-white font-semibold text-sm truncate leading-tight">{currentSong.name}</p>
-              <p className="text-white/50 text-xs truncate mt-0.5">{currentSong.artists?.join(', ')}</p>
+              <p className="text-white font-semibold text-sm truncate leading-tight">{cleanName}</p>
+              <p className="text-white/50 text-[11px] truncate mt-0.5">
+                {artist} {singers ? `• ${singers}` : ''}
+              </p>
             </div>
 
             {/* Controls */}
